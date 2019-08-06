@@ -1,0 +1,6 @@
+framework module BlueKit {
+  umbrella header "BlueKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,39 @@
+PODS:
+  - AnyFormatKit (1.0.0)
+  - AUIKit (0.1.2)
+  - BlueKit (0.1.0):
+    - AnyFormatKit (= 1.0.0)
+    - AUIKit (= 0.1.2)
+    - BTextInputFilter (= 0.1.1)
+    - BTextInputValidator (= 0.1.0)
+    - SnapKit (= 4.2.0)
+  - BTextInputFilter (0.1.1)
+  - BTextInputValidator (0.1.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - BlueKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AnyFormatKit
+    - AUIKit
+    - BTextInputFilter
+    - BTextInputValidator
+    - SnapKit
+
+EXTERNAL SOURCES:
+  BlueKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnyFormatKit: f66c5065ab115140fda2499ca8940f34f924c9cc
+  AUIKit: 95387a41eaa45222a60bfd9fe2d67d00aa54a29b
+  BlueKit: d5b5629dd887ccc8c048464eaecbccc3e585fb25
+  BTextInputFilter: 8eae6a61d2ef514f0d1d032c7cffcdfb6a04e1cd
+  BTextInputValidator: 09f04a7dfc5a9f4ac25d1403d344193a94c50606
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 29c86a7501dac937b4536f03740a1813bdf6eb1b
+
+COCOAPODS: 1.7.2

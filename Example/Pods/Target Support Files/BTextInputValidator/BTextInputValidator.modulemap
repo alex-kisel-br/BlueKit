@@ -1,0 +1,6 @@
+framework module BTextInputValidator {
+  umbrella header "BTextInputValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

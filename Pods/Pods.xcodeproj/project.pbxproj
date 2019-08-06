@@ -1,0 +1,2275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00089D6BB51A8335C9E049D092C55D43 /* AUIUpdatingCellControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0410CE2CCDD0E071FC0873336A22EA4 /* AUIUpdatingCellControllers.swift */; };
+		0054C0370FED8555F28A5D0794BB8EAB /* AUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471E7A18269C37C828BCE98C789A6FC /* AUITableViewController.swift */; };
+		00C9A8BCF4DE5E2337A9634EF4216E01 /* AUIInputTextFormatterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7080BA7DFBF9EAE269DE36EE75E16B8 /* AUIInputTextFormatterTextViewController.swift */; };
+		012CAC59EE8A5E38454DD8F977EE06E1 /* AUIDefaultTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C723C87D5519862A12341974E7C13 /* AUIDefaultTextFieldController.swift */; };
+		03CC71782BC536705A9074A71DAA59B8 /* AUIDefaultViewPickerComponentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6841E94A8C9B25CCFF9448AC4277221 /* AUIDefaultViewPickerComponentController.swift */; };
+		04668AF2E370BE64459E4C86C30E42A1 /* AUIInputTextFilterTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A023666AB7FE1C1B52457B1A818D35B /* AUIInputTextFilterTextFieldController.swift */; };
+		07648561C3A895B212A6FBABDE0CF2F6 /* AUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1D7189CC9AF4CA4F2B5ED71C382E50 /* AUITextField.swift */; };
+		079169C27698533917900CD0F420D897 /* AUIDefaultBarButtonItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F43A63693C3CD4B916ED5745BC7856 /* AUIDefaultBarButtonItemController.swift */; };
+		095547A88EE037F12395713A469C9B60 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1B396BC3EC94587A74B3FB7C7F0DA /* ConstraintLayoutSupport.swift */; };
+		09A7848DABA60289BB8CF9046579DF98 /* AUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458517208C3551E1370CF2288322B25 /* AUIApplication.swift */; };
+		09CB8F825000265E17A7F603F6683EBF /* AUIFilterValidatorFormatterTextInputControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931BD7CE21749133EE66B36A77CA9A40 /* AUIFilterValidatorFormatterTextInputControl.swift */; };
+		0BA3561ADDC7DAB595A49F30A6DA7489 /* AUIViewContainerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D947886D3EE15605A8E8DB88B538B0 /* AUIViewContainerable.swift */; };
+		0C58F66CF259E91EF173B459A4ECE2AF /* UIStackView+ArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D2E4BD7F88F184FB26E3F9671F810 /* UIStackView+ArrangedSubviews.swift */; };
+		0D44EB6D29D1AB98691F218911A78689 /* AUICollectionViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC4AF72AB8F172CCA665AF0C748DA56 /* AUICollectionViewDelegateProxy.swift */; };
+		0D7A7F3919AE48736753181756DE8AE8 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDEB1F018F4619D3024B3115BB9D558 /* Typealiases.swift */; };
+		0EFB2F43B466D1F455213EFF61113394 /* AUIAutoLayoutAlignedContentViewScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E06A72B25FBF8520E9D5F9CB987EB /* AUIAutoLayoutAlignedContentViewScrollView.swift */; };
+		0F03E138F14C7A4CD7B8798296CD7ED3 /* AUIDefaultControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED420124ECBBFCCA0580FEDC7837775 /* AUIDefaultControlController.swift */; };
+		0F141A326281364E8331F2EFAF15525F /* RegexEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B5D84A8BA7C5242249519C79DEA7BD /* RegexEvaluator.swift */; };
+		0FA8E62C7A4A6DA9BB841007B5E16CD4 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE30257369F21B4B5676A8F380F1717 /* ConstraintMakerFinalizable.swift */; };
+		11231551E9381517BC1441D528031B32 /* MaxLengthTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922DCFB2D4A9E07C1EBD3615D7E2A09 /* MaxLengthTextInputValidator.swift */; };
+		119AF39C15263F81FF95AA142F22147E /* AUITableViewHeaderFooterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0009DDC9DC7CE830E6C24B52AAA26DF /* AUITableViewHeaderFooterController.swift */; };
+		134316AB3853ECF89ED407E9C4A426BC /* AUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969DC5FA396563344F296F82B9F82464 /* AUINavigationController.swift */; };
+		14E9ACC5796C5E35C84DD6659BEB788F /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34E4E9E5650CB10A929B8FCC119888C /* ConstraintPriorityTarget.swift */; };
+		15B80C26F9B11DA1BF17CE4A41471544 /* AUIBarButtonItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81B95949D44F79971FEB8F1A13AB0B /* AUIBarButtonItemController.swift */; };
+		165A7025212704E171D9A527D28EF438 /* AUIContainerTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC5FABBD7990153F660C0EA17FAF3DF /* AUIContainerTableViewHeaderFooterView.swift */; };
+		1948AC52D4B90836357139E0A3C6BFC1 /* AUIDefaultTitlePickerItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DF6B12289DFC2614391F943EACA9F /* AUIDefaultTitlePickerItemController.swift */; };
+		1CA470E5AE75CA874716F10FC2BB5970 /* BTextInputFilter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAAA67FD8EDB8D928EDD8D0ACFA86CF1 /* BTextInputFilter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F18C0BDB37523A0397DCA111102A93D /* CaretPositionCorrector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218178A4496D953F47A2C73874D14D72 /* CaretPositionCorrector.swift */; };
+		1F82FFC1019669CE8B7F797E642FB255 /* AUIStatusBarScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9740FAF9B37C3D9C136302245C89CA /* AUIStatusBarScreenView.swift */; };
+		23512EBE7C0952263D84C3F07EC6E476 /* AUIDefaultInputTextFilterValidatorFormatterTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE2F4A2A109AF58A68F31B0AC2155EE /* AUIDefaultInputTextFilterValidatorFormatterTextFieldController.swift */; };
+		239D2F51218C3EB3CF4FF87D65E3D966 /* AUIImageViewContentModeScaleAspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C38BE48F31C6E2D36D10A70CD66A7 /* AUIImageViewContentModeScaleAspectFit.swift */; };
+		24EBBBED86AAC2BCDA5EF7E4F9C59886 /* DefaultTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652485243372A6FA054F53A7CDAF26C7 /* DefaultTextInputFormatter.swift */; };
+		2520AECA86ACC097C2932792F5274818 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8863A56C13F202946EA8961CBEEEF955 /* UIColor+Extension.swift */; };
+		26667306A242D20E49C688B36465283E /* CompositeTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF5AF9DB50336E5A08C24A8FE96D7B /* CompositeTextInputValidator.swift */; };
+		276EE563D9B688173DBBF47DB80D72D8 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7CC6C0BAB3F3382B4AFD43AC7E0DEC /* ConstraintLayoutGuideDSL.swift */; };
+		27B3586B6B07ACE0CA11A97B3C8913D9 /* AUIAutoLayoutBottomAlignedContentViewScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CF03ACBE55B50D3C9348EF25216BD /* AUIAutoLayoutBottomAlignedContentViewScrollView.swift */; };
+		28019F8BF9C279260189D44B3A77882C /* AUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8531371B2C11A566A3D1726CB3849F20 /* AUITextView.swift */; };
+		28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E056594B65CF2A298162A41FAA4237D /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28DEB4CE90B2527E98EF5A0AE914E416 /* AUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8FBD98F9F336D501A6A60D2FC71C1 /* AUILabel.swift */; };
+		2A758B3C3E3EB0BA3301638609DB3F2B /* AUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE65241FC0956DFD33F7E102E1B47DD2 /* AUIButton.swift */; };
+		2CB7BF2DA480F7B981A4A8D7B1EBC709 /* AUITextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6532A8627C1E63AFB4D702CE1373CE16 /* AUITextViewController.swift */; };
+		2D9F68E976211659F8560E20C368E76E /* AUILabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC25AE1C519605F71B63412A99D571C /* AUILabelController.swift */; };
+		2FFEB032CF432DF518DF01080C36CBCE /* AUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D05E53B7DE2C28F11C0A6C43E9041B /* AUITabBarController.swift */; };
+		304BBC2E19EF65134506B22B0B04B529 /* TextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26A08502BB9E05E71F8E43B33990F7D /* TextInputValidator.swift */; };
+		33880E6E987EC46109A12D81BCD10F6E /* Pods-BlueKitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0976DD38176BE494E3622A784912EA6D /* Pods-BlueKitTests-dummy.m */; };
+		343B52E8FE1994DA393A16580947419B /* AUIDeletingCellControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33F523994D90D6A830CC15A509D4CE5 /* AUIDeletingCellControllers.swift */; };
+		35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53BDCC777D08B4469BF9D9E05E81563 /* ConstraintMakerRelatable.swift */; };
+		372B834746C21E7623E3B2BEB10AFB87 /* AUIPickerItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A635D3BFF17FD84FA9F769B64EBFDCE7 /* AUIPickerItemController.swift */; };
+		37B376CDE5201A2B89C2781CE6B4C5D5 /* AUIBarItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327D40BAD854631158716130421A14B /* AUIBarItemController.swift */; };
+		39799D5B17D5C54C6B21E2065EF84CF2 /* AUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41564595F423289FE13E1B72A41D85C9 /* AUIImageView.swift */; };
+		3AC013D4AAABCDAF8C1E59AC5B68DF26 /* AUIDefaultScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B62E29514401DD1A305F9087A1A5D /* AUIDefaultScreenController.swift */; };
+		3E96232279ED5EF428E60B89F7988D8D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14706BB6DA569F6024DA3508F060889 /* String+Extension.swift */; };
+		4165E1780D4ED97F5C25669765C83706 /* TextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83195E4B172154276BC3B681C8B642 /* TextInputFilter.swift */; };
+		4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7008EDAAA962B4D25C18017A20781C35 /* ConstraintMakerEditable.swift */; };
+		43F3341425032C86A4B9053A7C538205 /* BTextInputValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E864A923AB7D7C43C7BBBE8A969D5BB /* BTextInputValidator-dummy.m */; };
+		49325F6451B4F5BAA273C286B5E420BE /* AUIDynamicSizeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E196B0DAAE7F2353C56C7A717573B93 /* AUIDynamicSizeCollectionCell.swift */; };
+		496AD742B31FC3DDCD1844B082C27C79 /* AUIGenericContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BB71706E2C396E593201FE1CBD5A4 /* AUIGenericContainerTableViewCell.swift */; };
+		49ACD51BF1E167F4387724DD0468C422 /* AUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B957310992364F045A0552D47B0B1EE7 /* AUICollectionViewCell.swift */; };
+		4BFB5713952A1C17ECA53ED189A011FC /* CharacterSetTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3892E905F09FA9AA2C293B4ADFE36C /* CharacterSetTextInputFilter.swift */; };
+		4E2CDE29FB37FA2E2ED4A39A57CB3C7F /* AUIInputTextFilterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B1FCC67A91A999D16914D721222464 /* AUIInputTextFilterTextViewController.swift */; };
+		4FCDA956F82A0DD28F243F2F91DFC225 /* AUIResponsiveSubtextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9772875744355843D382DF063E9D14E /* AUIResponsiveSubtextFieldViewController.swift */; };
+		5069CA145345B10D25102EC699D1E6E8 /* AUISubviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363778E6855C1C285F048FC680CB50F /* AUISubviewView.swift */; };
+		5372A746BAEF8465AC21A5AB41BDDDFF /* AUIDefaultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E61A16B141E9534B7B7F8F87CF72BBE /* AUIDefaultTableViewController.swift */; };
+		53AB7622FC2266A9A6860BB8D2B350C0 /* AUITitlePickerComponentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF027C931BAAA45691E47559769DFE7 /* AUITitlePickerComponentController.swift */; };
+		54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5961BF34886F7D0292A806635BED67 /* ConstraintInsets.swift */; };
+		5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AF444254A45D3DBE17F12DA0C28C3 /* ConstraintView.swift */; };
+		55E068A3F07C1F6D7A218EB9FA97920D /* AUIDefaultTableViewSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3C6EFDD7E9802A35F8A7CC7486AC7D /* AUIDefaultTableViewSectionController.swift */; };
+		56D3F2971ECCF0EED88CA5FC3E5CFA59 /* SumTextInputFormatterCaretPositionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6599461A16FAA7A97031F2E44D040 /* SumTextInputFormatterCaretPositionCalculator.swift */; };
+		57121B1684D84893FA606901F15A2788 /* AUINavigationControllerWithoutBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7117C633B95C96863BCD7632D35686 /* AUINavigationControllerWithoutBar.swift */; };
+		59A92E4723CE01C1620AAABC012565FE /* AUISubbuttonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C328C7EC81538C85B28B66E409E000B /* AUISubbuttonViewController.swift */; };
+		5C376607904258A10F4DDD6D42EFC491 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCE8896ADA82FE55857D06F6CED3066 /* ConstraintMaker.swift */; };
+		5C4B6E428AAF400F2AEF2F81B3CFF748 /* AUIContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADF331A2E55608BB1DCBBBF51C4EA6 /* AUIContainerTableViewCell.swift */; };
+		5D43AE1270807B9736F7FBD0305E4145 /* AUIDefaultTitlePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BFC561C9A3D17BCC01541D6D0997A /* AUIDefaultTitlePickerController.swift */; };
+		5DBFB9A0499F04CBE806486211A4ABD0 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E616A83C997ED9B0E6003BB54CCC463 /* SnapKit-dummy.m */; };
+		60D3FB89B9B5F38166D6BD03278D47AD /* TextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500376489B6206A92CC460EC80D564B5 /* TextInputFormatter.swift */; };
+		6113B0A218F5D7B68B60849732993946 /* AUITextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642DE615069BA7AEC9182F283B949626 /* AUITextInputFilter.swift */; };
+		61F8AFCCF910F41F7069787FEC787F75 /* BTextInputValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B364224F7C734BD3E3902950BE30F1FB /* BTextInputValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65793E99A5ECD3EA0552849C800998DB /* AUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B391C35D2F70330171AE9BFA2C54D4D /* AUIViewController.swift */; };
+		65B2D179E8EDDE5AFFEEC51ACD787032 /* AUITitlePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B4FC35ECD4EC31F2A0415C386E932 /* AUITitlePickerController.swift */; };
+		668550258E9AA699D74A6E71B360B562 /* AUIDefaultApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A22ABB83C5ED3AFD86FD8B1408FE1 /* AUIDefaultApplication.swift */; };
+		67776864843D84DC929C1B66FF8C94F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		678BBE9D939FFEF15356182F982E6A2B /* AUISubtextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC0D53E5FB0BAFB8FCC7EE2D78E9DC8 /* AUISubtextFieldViewController.swift */; };
+		6B43F2F53DD6C161CF414A9BF67550C5 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA095445BB783A8D523A62AF282B9997 /* ConstraintDSL.swift */; };
+		6C2E42F3282AE876DB37CAAE983CB5C5 /* AUIDefaultTextInputControlTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A9B3D902A7CAA19EDE3599605D7D3F /* AUIDefaultTextInputControlTextFieldController.swift */; };
+		6C5DCC8FF7CC0E16DF7F84FD648A7D67 /* AUIInsertingCellControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC8A7BE62A235903955A9EB9BAB6FF /* AUIInsertingCellControllers.swift */; };
+		6C71AA37648502FF1B6C2A775D2E640D /* AUIDefaultDatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FBAF3F37D051FA1F345002C562598F /* AUIDefaultDatePickerController.swift */; };
+		6CB8A881E538F8C3959BC4EC1403D2D9 /* AUIReusableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7659D6F4B5FF033FDDB74D6AFB897221 /* AUIReusableTableViewCell.swift */; };
+		6DA7B0958A290A5BBDB19E808E7C35F3 /* SumFormatParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF41D116795ED1F18A17528AA17C205 /* SumFormatParser.swift */; };
+		6DBEF8539A1B4AB1FB9E39A718660E7D /* AUIDefaultTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E5804CB4DB70563C6A4E4B135A14C /* AUIDefaultTextViewController.swift */; };
+		6F94FD6B999C05B12BF22666F2D66ABA /* AUITextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B18101BB9E7F5C15DF540B1169778 /* AUITextFieldController.swift */; };
+		72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C825DE0B3C07A244CBA76F09E6CC95 /* ConstraintOffsetTarget.swift */; };
+		72FE4EFA58DB08D317AF8D17BB2C8F78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		76D15F93DDE8FF11165385D87939AA1F /* AUIDefaultScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94227AE2F22407328CE41B311B641C07 /* AUIDefaultScrollViewController.swift */; };
+		7742D9D75F0645B31CF1E7B4B13D68C5 /* AUITextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8704B183034D2612F28160B375DD4D /* AUITextInputFormatter.swift */; };
+		77A5AC2AF1BCB43D732C5F29236E78CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFCB1B882B7B815B7C8ABA0A9043B12 /* ConstraintView+Extensions.swift */; };
+		78EA97C654E6C35724AEB673845C4DCC /* AUIViewPickerItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BE00C10F850D036B18AB6CF38A40A /* AUIViewPickerItemController.swift */; };
+		79F308CF7129B96C77087480AE203E7D /* AUIViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BA42771F0DB339ADF38D203DCF757 /* AUIViewContainer.swift */; };
+		7A86FC9CC54E77C2597CDE816B9E67C9 /* Pods-BlueKitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 812DCA4FE9FE2517CFFDA0BBBE95C90D /* Pods-BlueKitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8F6B8D59860449939AB4403E4D2B8A /* AUIImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3046FCDC2A316215403CD42200684F79 /* AUIImageViewController.swift */; };
+		7B6461FEA27400D8A08E3AF935A7BC10 /* AUIDefaultSegmentedControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707391BC6302C38A8685FDB76960DBDC /* AUIDefaultSegmentedControlController.swift */; };
+		7BBB1F7C7A875EF07DEEF2B5C7A3094C /* AUIDefaultPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0903D27306FE1ED3910A5A9EB8E00 /* AUIDefaultPageController.swift */; };
+		7CF74CB5BF558976DF9A078766A320AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7D8AA3583AF9CEBB981B29EB6407C492 /* AUIUpdatableWideCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3E55EED339F87ED73DABC2B1982A0 /* AUIUpdatableWideCollectionViewLayout.swift */; };
+		7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394BF250DE5EC45C47EE8D7B21721AA /* LayoutConstraintItem.swift */; };
+		7EDDAB518773659EF39F0CF5F3E36E69 /* AUIElementTableViewHeaderFooterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD05BE5A964F3DD682E0A9BEC52B16F /* AUIElementTableViewHeaderFooterController.swift */; };
+		7F0EBDE0B4B1F0F74F8A8C46314D63DC /* AUIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E3A7E359AB90AF4C79B8383E3386D2 /* AUIPageViewController.swift */; };
+		818C02EBCF90012EA2DD9D4821F6BD76 /* AUIDefaultResponsiveSubtextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4984A4AF63DDC034B63D10230B00A4 /* AUIDefaultResponsiveSubtextFieldViewController.swift */; };
+		823C4B3D139BF1C283244477E817FE9A /* AUIDefaultSubbuttonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76896E28C89C7391FC04CC2FCECC56F /* AUIDefaultSubbuttonViewController.swift */; };
+		825698FF28BAA122A92C63C43FB9FBDC /* AUIPickerComponentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80130140E483A42789C1C60DF8CB8A19 /* AUIPickerComponentController.swift */; };
+		837CA254F7B32220FD648D0123F228FA /* BTextInputFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B02158BCD2A2980CD4C3D8059E45DD /* BTextInputFilter-dummy.m */; };
+		83DAF2ECB46A8BBB2C26F5FF0432DBBA /* AUIPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB06A1EAB4CEF08B4C6F5A3BC9140EA8 /* AUIPickerController.swift */; };
+		83F2310155BD3A9AB3890F2F263EAEB8 /* AUIInputTextValidatorTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9C5BDF4F2E61C952024390C7A5E94F /* AUIInputTextValidatorTextFieldController.swift */; };
+		841028AFBBDE58854B34DA370414F6BF /* AUIAutoLayoutTopAlignedContentViewScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F9542AF51A29CB192AB08DB1D0653D /* AUIAutoLayoutTopAlignedContentViewScrollView.swift */; };
+		8527F362B6E1E14DF4E0D4D93F93A89E /* AUICollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6199970D7CE2B78EC6E4C7ECBAC56A02 /* AUICollectionViewCellController.swift */; };
+		85C8B5C31A1AAD01DC44F705610E0BC9 /* Pods-BlueKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CE859F98B1E3B88262C510EFE12285 /* Pods-BlueKit-dummy.m */; };
+		85D060872B3D6A0932DFCB43E4B88CDE /* AUITextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB236C6AEFDA44CA2473382F655A0D86 /* AUITextInputValidator.swift */; };
+		874887CC5AF7A21F7CCAC8B46B5CD63A /* RegexTextInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5E160D628EA80D77B2A4B6A5ED26F /* RegexTextInputFilter.swift */; };
+		877829399F583E13D1EE6856B59B973D /* AUIDefaultButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026C0827FF10EEAAAC5394853B481300 /* AUIDefaultButtonController.swift */; };
+		87E110A23FA112B1C13D8A6D2BCB1C83 /* AUITitlePickerItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FB1E55E26B4485DDD50636D949066F /* AUITitlePickerItemController.swift */; };
+		8870DD34ACA7C2D6B9CB85E1A18FB712 /* AUIControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC0EE084F8CDA5F04C0171C6337A1D /* AUIControlController.swift */; };
+		88A88055BDDA20D23E7247E9F7745022 /* AnyFormatKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D927DEB132873F684A3C1E0F680676AC /* AnyFormatKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B881293D3F64362A3DB646814F7D8A1 /* AUISegmentedControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3317FDEA28A44F0CCB35B48059F1722C /* AUISegmentedControlController.swift */; };
+		8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AD616AFDBF77183A9FAF2636BB9CD4 /* ConstraintMakerPriortizable.swift */; };
+		8DFFCAF9B4791E2149608096BA4EEB9B /* AUIDefaultViewPickerItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E356FE44319D126833CD588AEF4F94 /* AUIDefaultViewPickerItemController.swift */; };
+		8ECD800E27D49BD5E74C512CC49804F6 /* AUIGenericContainerTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78995D7F1EE71C7597ACB7378FB7E771 /* AUIGenericContainerTableViewHeaderFooterView.swift */; };
+		90B358EB42A83D4881DC4FB718960DB6 /* AUIDefaultPagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FCDFDF9880B5CCD288A9C6560F0239 /* AUIDefaultPagesController.swift */; };
+		90CEC1294E83113A337D48BFFB1A2DA5 /* AUIScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEACB02A20A1376526C38B4445CA49B /* AUIScreenController.swift */; };
+		92472CAA0A8AFA639A33F24405BB88FC /* AUITableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2D4E943C9941DF729BB4F8D638DCCB /* AUITableViewHeaderFooterView.swift */; };
+		9432185152350A4A90F6DD19C33AC057 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE2628CFBF743704B6B289E2BEA93D /* Debugging.swift */; };
+		95EAE5D1AB7538BD6B3D81ED23EB25D2 /* AUIDefaultRefreshControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B51D946ABF540C02A45AB5338CD7D7 /* AUIDefaultRefreshControlController.swift */; };
+		96AC16E92A315022E1A36668D0F234BC /* AUITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB2138463C2905508A169B1A364C931 /* AUITableView.swift */; };
+		96D0A7332433535603E1B110B1DDD618 /* UIPageControl+PreferredSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0CB83A48E05AB1923970DF7E2074C /* UIPageControl+PreferredSize.swift */; };
+		9835A0558A7117D232698AE8AAE58E19 /* AUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012F15A9EE9DFD8D5FC96EA00945CEB /* AUICollectionViewController.swift */; };
+		9846D614218B3F05091DC4993AC75A5B /* AUIDefaultViewPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A96FE4432CC8615386BE8F139C9D7D /* AUIDefaultViewPickerController.swift */; };
+		98AE4E2F24A858A47B5A1B405CEAD8FD /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6997BA75FFA8696E6C4913FA81BE3A0E /* UILayoutSupport+Extensions.swift */; };
+		9B64492E2AAB8CB4A42929C022B33D59 /* AUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72957720286BB14778BB4E32B6B93A07 /* AUIView.swift */; };
+		9B8E038F1F2733717E371B975939C99D /* AUIElementTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382E8BDCCC231868D6BF937D55A453B4 /* AUIElementTableViewCellController.swift */; };
+		9D8173A6D528778E859118265D1823E7 /* AUIDefaultBarItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3BB3F8632D97D48C7B90C0AEE474F /* AUIDefaultBarItemController.swift */; };
+		9DBD8737942A3CD986C253583E9A91E5 /* AUIDefaultSubtextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FD1796DFC12D97B545D9EAE0CF211 /* AUIDefaultSubtextFieldViewController.swift */; };
+		9E6184458532BFF2E3E3F804C54BD0E7 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E910F1B07A6975D3B0FBDB739783764E /* ConstraintDescription.swift */; };
+		9EE2D363A721ACFA89B5B899E1987633 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E022A265CF8BB681C65020A1736B3D98 /* ConstraintConstantTarget.swift */; };
+		9F117E7BC9BB5D26BDA78A8800A25554 /* AUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D072AF7E11A8387385B280D229FEB71 /* AUIKit-dummy.m */; };
+		A04D46C4C48247D004BAE5C7AD6E05A3 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32D0DE03260597B817A8FECD7F3F88 /* ConstraintConfig.swift */; };
+		A05AA7DF3479BC4C01CEA1868081DE12 /* AUIToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6A99065E6934B7A7DE498C8F9D2F1B /* AUIToolbarController.swift */; };
+		A1DDE469BB0660AF598AA865106E989A /* AUIButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873287C391DEEEF9BE7B29B6D0D95854 /* AUIButtonController.swift */; };
+		A3DEA82F229FDF7C9444CEFEE3D9AB84 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97118800161B9DC9DE6D6F37D0876F99 /* ConstraintMultiplierTarget.swift */; };
+		A4070B8C9BD30965648B2876CD3C1C43 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15B9E2939D1E45DD747635E781FACA /* ConstraintAttributes.swift */; };
+		A40EC4B7C8E3F641BC922188EFC0B509 /* AUIDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D85AF843F353DC6A356A8A4C1F768 /* AUIDefaultViewController.swift */; };
+		A482F623A133B7E947C01456C779622A /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4E65F9E0A0C0D7A0BD171D6B1E827 /* ConstraintPriority.swift */; };
+		A4C407C78D4AEC1E2C577A345D238D3C /* AUIPagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D309ABCDBAA387D02933B03E0055ADA /* AUIPagesController.swift */; };
+		A6528C837A86168D6E7D2D89BD109337 /* AUICollectionViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97036FE2917AEDD4A7C60B34C53EE978 /* AUICollectionViewDataSourceProxy.swift */; };
+		A68549F027148545C57E7B6C628EA79E /* AUISubcontrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ED229126C5FBB0BC81886A09552DB0 /* AUISubcontrolViewController.swift */; };
+		A7087114ADA3374361CF30B6F8DD51A0 /* AUIDefaultSubviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA19EC8D6CA6BA8AD5543A8D4889882 /* AUIDefaultSubviewViewController.swift */; };
+		A8A57A6026CE0F6ECA8EFD8C35922A77 /* AUIDefaultToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CA63A73B0FBA9B90538C43617736C1 /* AUIDefaultToolbarController.swift */; };
+		A9E57EA95707670427FBCD8E7FC0DDB0 /* AUIInputTextFormatterTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877EF46A012AF189981D8565815C8AB1 /* AUIInputTextFormatterTextFieldController.swift */; };
+		AB6A98DBD47FA017BF1117B2A6FC1852 /* AUIDefaultSwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA213E34132751A16808F4E39EB61A0A /* AUIDefaultSwitchController.swift */; };
+		AC1F17F27C63E96101904429A94A52B5 /* AUIDefaultPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE657C7D52274E62FE21DE4182AECE1 /* AUIDefaultPickerController.swift */; };
+		AD8A2132FCE4D8AE63F663B9403D7B2A /* AUIConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A60F76F9087B761DECBDE72B35A53F /* AUIConfigurableView.swift */; };
+		AEF476B5FF3241807705B147868CBCF4 /* AUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC89EA13E14E38E6D8C40DC5EDD3D9D /* AUIScrollView.swift */; };
+		B26B98E5F24B7DF14740CC909653B85D /* AUITableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DA945392CA686503E2956BAB95A76 /* AUITableViewCellController.swift */; };
+		B50FB5A72A16A97F0E61DF40F5134F9C /* AUIDatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DD62A50B2E0983353F288A317AF46 /* AUIDatePickerController.swift */; };
+		B841E7C4408564B06461DC892C9A9168 /* AUIToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD2713BFA54F234EAC45C2F6883D5CB /* AUIToolbar.swift */; };
+		BAAF3A89A351772A0AE5A79DFC552FF0 /* AnyFormatKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B83D476F457B2EA81751157D60840AE5 /* AnyFormatKit-dummy.m */; };
+		BBD37A59D67DCAB70718DC7E5E50F362 /* AUIDefaultSubtextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566797E8174A7BB4C86F9552321FAB26 /* AUIDefaultSubtextViewViewController.swift */; };
+		BCEDEDB065A66BCC621B0CE35CC0A2E8 /* DefaultTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FEEB34FEF4680BA2E405AA04343122 /* DefaultTextFormatter.swift */; };
+		BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AE915511E65D0F23F63762B49CB93B /* LayoutConstraint.swift */; };
+		C0A2BA6239B832A6A97443966E92A53C /* AUIDefaultPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CAFA7099706CA478513CE399116278 /* AUIDefaultPresentation.swift */; };
+		C15D5D4104594B6C533538B28588487A /* AUIElementCollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E9DF1A06B0738FD4C2F070358BA618 /* AUIElementCollectionViewCellController.swift */; };
+		C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87679DE735E6588F59BD7F8B948E8A1 /* ConstraintRelation.swift */; };
+		C23A6BB75B56081DBA6D43F761487D6C /* AUICollectionViewDataSourcePrefetchingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297B5729C7C9B18831B5946C0C9BB3F3 /* AUICollectionViewDataSourcePrefetchingProxy.swift */; };
+		C3045DF467C0CAB3D7F82068E3EA3CD4 /* StringRegexTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD948FE8E51B287880A36888AF83DEC /* StringRegexTextInputValidator.swift */; };
+		C3317BD78C534D7EA5C490050037A088 /* Pods-BlueKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC5EBBD56236E76BCF0C0EE2C9F4309 /* Pods-BlueKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B3B210182737CE2E38C85A0D109427 /* AUIDefaultSubcontrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41E9735F98BE454460A152C06E17A14 /* AUIDefaultSubcontrolViewController.swift */; };
+		C7115616532F881AF5DDE18DF4C9D69D /* SymbolRegexTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A1202966C6656B37C572B2CB5D2293 /* SymbolRegexTextInputValidator.swift */; };
+		C73834C1B04705A2D45FD9A4098A6299 /* AUIDefaultTitlePickerComponentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432A79CED5BC36DA0C9509D6610E9F34 /* AUIDefaultTitlePickerComponentController.swift */; };
+		C8A915647117CF314DC133FEFD0E9461 /* AUISubviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C005396CB604035BD607E6472B166C2 /* AUISubviewViewController.swift */; };
+		CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860558EC0CADCDADCCD7E86C71AB9E80 /* ConstraintItem.swift */; };
+		CC5EADB155F3E2F516035D94A2C0A8AC /* AUIReusableCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B56ADE77A0AC4916A89C73F15E513CB /* AUIReusableCollectionCell.swift */; };
+		CCE9D02C1BF930595DC452E11326536F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D3A1A7581617F5ED3BA10610F5B985EB /* AUITextInputControlTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E79F067450580E6F6889F1D100B8D6 /* AUITextInputControlTextFieldController.swift */; };
+		D5143E43CA0FB15470B87BD51C29C4E3 /* AUIPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEA17BC8E502550DCDFBDA53DA249C1 /* AUIPresentation.swift */; };
+		D5270CC778D246A2883DDE2CA32DDC15 /* AUIInputTextValidatorTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD4F4DB3AD75DF3F5BA48688566D04 /* AUIInputTextValidatorTextViewController.swift */; };
+		D53115EC94B4C259495CDD07A7115436 /* AUIDefaultImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC6BC0D5E5A817B9C7E8D29FC3A747 /* AUIDefaultImageViewController.swift */; };
+		D56475AE85911FCB156B2054D19C7F4F /* AUIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5D6AEA1D88F1DE2BE87A652E421936 /* AUIScrollViewController.swift */; };
+		D5B5B12734E8A31BB4DF4DD14C7B1695 /* AUITableViewSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97952E47198F65F2EBBA89DFE212F9C3 /* AUITableViewSectionController.swift */; };
+		D73752B00861EDFA19C2D6D3F8221A7D /* CharacterSetTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2591E2AD4019EBEC74E7843C81D37 /* CharacterSetTextInputValidator.swift */; };
+		DB626A6C8988286CD15A426F6555784E /* AUIViewPickerComponentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D95A6500D1BE84C7C17CCE76F4009F /* AUIViewPickerComponentController.swift */; };
+		DBB93D3827327B8FB4CFA164C03357E5 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEC4F1CFCA15CF99CDCC8694E198A43 /* ConstraintLayoutGuide+Extensions.swift */; };
+		DCCEFF1B52226DE5ABB2D0043442FE61 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3001EE3033942BB7BF0F864BE87AD2B1 /* Constraint.swift */; };
+		DE674597F5E6145A265CA0B328D1CE2F /* AUIAttributedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53406180C41A2759C456448CE46278A /* AUIAttributedLabel.swift */; };
+		DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CC12038608A7CA4B86CC79F102B28 /* ConstraintViewDSL.swift */; };
+		E0574A9AA5D6B640F43B2A15331EC394 /* AUITableViewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F73F73BF66F99F3D9146E28B2A798A /* AUITableViewCellView.swift */; };
+		E3F5687C1F6850FC4EEE137E587E8724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E41D089F2C02E67C84DFA48222E6ADE6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7196D8002E39DB68C28F214346C96B60 /* String+Extension.swift */; };
+		E631AC399137B0CF3844D499ECC5166D /* AUIViewPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2BC1E324572E4DE99648A91D79ACB1 /* AUIViewPickerController.swift */; };
+		E798CF629D8A3495E12E1D8C68709CEE /* AUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CB4BAB2CA49B3220ABE381AC7AA4BC /* AUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222DECEF7587182878A419E17E4ABA0E /* ConstraintRelatableTarget.swift */; };
+		E8DCBD66F016EB15C35C8F945E2B68C1 /* AUISubtextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCDB60F1FD23BA6ABC0697D02A2FB /* AUISubtextViewViewController.swift */; };
+		EA7290BE16E13549C372ECC3975C605D /* AUIDefaultInputTextFilterValidatorFormatterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D6914093155DBACF1084CF309C98AA /* AUIDefaultInputTextFilterValidatorFormatterTextViewController.swift */; };
+		EB2EFEECD160A813A7FD870866E6B55C /* SumTextInputFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CC5D259F3ED8AEE950E1AEC9C6471C /* SumTextInputFormatter.swift */; };
+		EC63FDAF8C868CF5A7B8B8A306CBB844 /* AUISegmentedControlItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920FEA071E3685400C10601BDC4E8A5 /* AUISegmentedControlItemController.swift */; };
+		EC894CA580CA7A0A72472282B08BB005 /* AUISwitchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A89DDB3AFE2764F8155DE98E045EF /* AUISwitchController.swift */; };
+		ED69F7D9F599032F35DE9AE0D3621CB5 /* TextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C334B07D164B87C579CF724580AA58B8 /* TextFormatter.swift */; };
+		EE1138C53EB74FA34DE5C38D11165A0B /* AUIUpdatableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E2D43B6F7F194380E7453DA693299F /* AUIUpdatableCollectionViewController.swift */; };
+		EFA5236992B4C5B6D658B533BBB10EC6 /* AUITextInputControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1415BB9F90CA9B317EBE283DE0A871E3 /* AUITextInputControl.swift */; };
+		F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B308EFA275A9B8EC67B5238B795D865 /* ConstraintInsetTarget.swift */; };
+		F4C63DEA14B103BF8C460F6D77B22F9D /* AUIResponsiveSubtextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB56DC33A22B974B4A52182249128BB /* AUIResponsiveSubtextFieldView.swift */; };
+		F6A8DF0C7BF00B02B11E8314C0663005 /* AUIRefreshControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10086C5C21CDE4A98BF0A2130637458 /* AUIRefreshControlController.swift */; };
+		F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1256466A75FE0EA1B7A80B9D0EB24A /* ConstraintLayoutSupportDSL.swift */; };
+		FA142AD48C5BF712243427088133BC78 /* AUIDefaultLabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31095C8A6DFD1E07124D9125CC6AE03 /* AUIDefaultLabelController.swift */; };
+		FC0E1C35308EE687DB60704D95B11CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FD0BD70847C09894FD5D6F63811EC239 /* AUIDefaultSegmentedControlItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8C7A9AE992AE8CBC9D1EFA6264FBF /* AUIDefaultSegmentedControlItemController.swift */; };
+		FE00FF5A38ADD6D0CE7E3256F67A47EB /* SumTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0830D6DF832726EF3E51F3AFD3D95D3 /* SumTextFormatter.swift */; };
+		FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46A7654B87377FE9FC85529ABB59E69 /* ConstraintMakerExtendable.swift */; };
+		FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06A582CB6B0580C8834A3D575A6F4C /* ConstraintLayoutGuide.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0613D5D12BBB26B54EAA16F9B29D061C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B44732F3ABF09F73F7D054D77D5E2934;
+			remoteInfo = "Pods-BlueKit";
+		};
+		50587B0CBA9171CEBB97DFF3A2AA919A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		8F1EDB0A4DF109BD5103FE8ACA735AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485B2710710275A609113C16D2265279;
+			remoteInfo = AUIKit;
+		};
+		B3EB14E72E217DA07EEBF8AF54844A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C07AD7DF8B0F18B7DB12F0D2C1F899D;
+			remoteInfo = AnyFormatKit;
+		};
+		E194076D6874AB26E40F0965B1C2609B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77054F18872A72934F33EE2F6D238451;
+			remoteInfo = BTextInputValidator;
+		};
+		FCDAFF24926B23EDE530FE8D73E2ED36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970103E1A8BBFC9ED2CFE0CFCE637057;
+			remoteInfo = BTextInputFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026C0827FF10EEAAAC5394853B481300 /* AUIDefaultButtonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultButtonController.swift; path = AUIKit/Elements/Button/AUIDefaultButtonController.swift; sourceTree = "<group>"; };
+		0327D40BAD854631158716130421A14B /* AUIBarItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIBarItemController.swift; path = AUIKit/Elements/BarItem/AUIBarItemController.swift; sourceTree = "<group>"; };
+		03EC0EE084F8CDA5F04C0171C6337A1D /* AUIControlController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIControlController.swift; path = AUIKit/Elements/Control/AUIControlController.swift; sourceTree = "<group>"; };
+		05ADF331A2E55608BB1DCBBBF51C4EA6 /* AUIContainerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIContainerTableViewCell.swift; path = AUIKit/Elements/TableView/Cell/AUIContainerTableViewCell.swift; sourceTree = "<group>"; };
+		074E06A72B25FBF8520E9D5F9CB987EB /* AUIAutoLayoutAlignedContentViewScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIAutoLayoutAlignedContentViewScrollView.swift; path = AUIKit/Elements/ScrollView/AutoLayoutAlignedContentView/AUIAutoLayoutAlignedContentViewScrollView.swift; sourceTree = "<group>"; };
+		0976DD38176BE494E3622A784912EA6D /* Pods-BlueKitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlueKitTests-dummy.m"; sourceTree = "<group>"; };
+		0B3097D7ACFDFEB0043DC27EAC9F06D1 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		0B7117C633B95C96863BCD7632D35686 /* AUINavigationControllerWithoutBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUINavigationControllerWithoutBar.swift; path = AUIKit/Stories/NavigationControllers/AUINavigationControllerWithoutBar.swift; sourceTree = "<group>"; };
+		0C005396CB604035BD607E6472B166C2 /* AUISubviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISubviewViewController.swift; path = AUIKit/Elements/View/Subview/AUISubviewViewController.swift; sourceTree = "<group>"; };
+		0C9740FAF9B37C3D9C136302245C89CA /* AUIStatusBarScreenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIStatusBarScreenView.swift; path = AUIKit/Screens/AUIStatusBarScreenView.swift; sourceTree = "<group>"; };
+		0CA5E160D628EA80D77B2A4B6A5ED26F /* RegexTextInputFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexTextInputFilter.swift; path = TextInputFilter/Source/RegexTextInputFilter.swift; sourceTree = "<group>"; };
+		0CDEB1F018F4619D3024B3115BB9D558 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		0D8704B183034D2612F28160B375DD4D /* AUITextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextInputFormatter.swift; path = "AUIKit/Behaviour /TextInput/Formatters/AUITextInputFormatter.swift"; sourceTree = "<group>"; };
+		0FEACB02A20A1376526C38B4445CA49B /* AUIScreenController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIScreenController.swift; path = AUIKit/Screens/AUIScreenController.swift; sourceTree = "<group>"; };
+		1415BB9F90CA9B317EBE283DE0A871E3 /* AUITextInputControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextInputControl.swift; path = "AUIKit/Behaviour /TextInput/AUITextInputControl.swift"; sourceTree = "<group>"; };
+		15DBBBAE5E6390F8BE9407C7492FF883 /* Pods-BlueKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlueKit.debug.xcconfig"; sourceTree = "<group>"; };
+		17E2D43B6F7F194380E7453DA693299F /* AUIUpdatableCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIUpdatableCollectionViewController.swift; path = AUIKit/Elements/CollectionView/DynamicSizeCollection/AUIUpdatableCollectionViewController.swift; sourceTree = "<group>"; };
+		188BCDB60F1FD23BA6ABC0697D02A2FB /* AUISubtextViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISubtextViewViewController.swift; path = AUIKit/Elements/TextView/SubtextView/AUISubtextViewViewController.swift; sourceTree = "<group>"; };
+		19CB4BAB2CA49B3220ABE381AC7AA4BC /* AUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUIKit-umbrella.h"; sourceTree = "<group>"; };
+		19F9542AF51A29CB192AB08DB1D0653D /* AUIAutoLayoutTopAlignedContentViewScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIAutoLayoutTopAlignedContentViewScrollView.swift; path = AUIKit/Elements/ScrollView/AutoLayoutAlignedContentView/AUIAutoLayoutTopAlignedContentViewScrollView.swift; sourceTree = "<group>"; };
+		1A023666AB7FE1C1B52457B1A818D35B /* AUIInputTextFilterTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIInputTextFilterTextFieldController.swift; path = "AUIKit/Elements/TextField/InputControl/New Group/AUIInputTextFilterTextFieldController.swift"; sourceTree = "<group>"; };
+		1B2BC1E324572E4DE99648A91D79ACB1 /* AUIViewPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIViewPickerController.swift; path = AUIKit/Elements/Picker/View/AUIViewPickerController.swift; sourceTree = "<group>"; };
+		1B5961BF34886F7D0292A806635BED67 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		1BDD5E85778F4F8035E1A240281676EC /* Pods-BlueKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlueKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CEC4F1CFCA15CF99CDCC8694E198A43 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		1E196B0DAAE7F2353C56C7A717573B93 /* AUIDynamicSizeCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDynamicSizeCollectionCell.swift; path = AUIKit/Elements/CollectionView/Cells/AUIDynamicSizeCollectionCell.swift; sourceTree = "<group>"; };
+		1E61A16B141E9534B7B7F8F87CF72BBE /* AUIDefaultTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTableViewController.swift; path = AUIKit/Elements/TableView/AUIDefaultTableViewController.swift; sourceTree = "<group>"; };
+		1EC0D53E5FB0BAFB8FCC7EE2D78E9DC8 /* AUISubtextFieldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISubtextFieldViewController.swift; path = AUIKit/Elements/TextField/SubtextField/AUISubtextFieldViewController.swift; sourceTree = "<group>"; };
+		1FE8FBD98F9F336D501A6A60D2FC71C1 /* AUILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUILabel.swift; path = AUIKit/Elements/Label/AUILabel.swift; sourceTree = "<group>"; };
+		218178A4496D953F47A2C73874D14D72 /* CaretPositionCorrector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaretPositionCorrector.swift; path = Source/TextFormatter/DefaultTextInputFormatters/CaretPositionCorrector.swift; sourceTree = "<group>"; };
+		222DECEF7587182878A419E17E4ABA0E /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		22F43A63693C3CD4B916ED5745BC7856 /* AUIDefaultBarButtonItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultBarButtonItemController.swift; path = AUIKit/Elements/BarButtonItem/AUIDefaultBarButtonItemController.swift; sourceTree = "<group>"; };
+		2394BF250DE5EC45C47EE8D7B21721AA /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		2471E7A18269C37C828BCE98C789A6FC /* AUITableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITableViewController.swift; path = AUIKit/Elements/TableView/AUITableViewController.swift; sourceTree = "<group>"; };
+		25FCDFDF9880B5CCD288A9C6560F0239 /* AUIDefaultPagesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultPagesController.swift; path = AUIKit/Elements/Pages/AUIDefaultPagesController.swift; sourceTree = "<group>"; };
+		26D947886D3EE15605A8E8DB88B538B0 /* AUIViewContainerable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIViewContainerable.swift; path = AUIKit/Elements/TableView/Cell/AUIViewContainerable.swift; sourceTree = "<group>"; };
+		277DD62A50B2E0983353F288A317AF46 /* AUIDatePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDatePickerController.swift; path = AUIKit/Elements/DatePicker/AUIDatePickerController.swift; sourceTree = "<group>"; };
+		28A96FE4432CC8615386BE8F139C9D7D /* AUIDefaultViewPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultViewPickerController.swift; path = AUIKit/Elements/Picker/View/AUIDefaultViewPickerController.swift; sourceTree = "<group>"; };
+		2920FEA071E3685400C10601BDC4E8A5 /* AUISegmentedControlItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISegmentedControlItemController.swift; path = AUIKit/Elements/SegmentControl/AUISegmentedControlItemController.swift; sourceTree = "<group>"; };
+		297B5729C7C9B18831B5946C0C9BB3F3 /* AUICollectionViewDataSourcePrefetchingProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUICollectionViewDataSourcePrefetchingProxy.swift; path = AUIKit/Elements/CollectionView/Proxies/AUICollectionViewDataSourcePrefetchingProxy.swift; sourceTree = "<group>"; };
+		2B391C35D2F70330171AE9BFA2C54D4D /* AUIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIViewController.swift; path = AUIKit/Elements/View/AUIViewController.swift; sourceTree = "<group>"; };
+		2CC5EBBD56236E76BCF0C0EE2C9F4309 /* Pods-BlueKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlueKit-umbrella.h"; sourceTree = "<group>"; };
+		3001EE3033942BB7BF0F864BE87AD2B1 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		3046FCDC2A316215403CD42200684F79 /* AUIImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIImageViewController.swift; path = AUIKit/Elements/ImageView/AUIImageViewController.swift; sourceTree = "<group>"; };
+		31E356FE44319D126833CD588AEF4F94 /* AUIDefaultViewPickerItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultViewPickerItemController.swift; path = AUIKit/Elements/Picker/View/AUIDefaultViewPickerItemController.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3317FDEA28A44F0CCB35B48059F1722C /* AUISegmentedControlController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISegmentedControlController.swift; path = AUIKit/Elements/SegmentControl/AUISegmentedControlController.swift; sourceTree = "<group>"; };
+		34FB1E55E26B4485DDD50636D949066F /* AUITitlePickerItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITitlePickerItemController.swift; path = AUIKit/Elements/Picker/Title/AUITitlePickerItemController.swift; sourceTree = "<group>"; };
+		359CBAF6CFE563E3076F1DD9555225E0 /* BTextInputValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTextInputValidator-prefix.pch"; sourceTree = "<group>"; };
+		364C38BE48F31C6E2D36D10A70CD66A7 /* AUIImageViewContentModeScaleAspectFit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIImageViewContentModeScaleAspectFit.swift; path = AUIKit/Elements/ImageView/AUIImageViewContentModeScaleAspectFit.swift; sourceTree = "<group>"; };
+		37C825DE0B3C07A244CBA76F09E6CC95 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		37E3C35E504992C75282E60106313A90 /* AnyFormatKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKit-prefix.pch"; sourceTree = "<group>"; };
+		382E8BDCCC231868D6BF937D55A453B4 /* AUIElementTableViewCellController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIElementTableViewCellController.swift; path = AUIKit/Elements/TableView/Cell/AUIElementTableViewCellController.swift; sourceTree = "<group>"; };
+		3D07E7E3199CFEDBA6A5D69F7EBF76BC /* Pods-BlueKitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlueKitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E7A34009FF81F53D37F7B1F01888A81 /* BTextInputFilter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTextInputFilter-prefix.pch"; sourceTree = "<group>"; };
+		3E9D85AF843F353DC6A356A8A4C1F768 /* AUIDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultViewController.swift; path = AUIKit/Elements/View/AUIDefaultViewController.swift; sourceTree = "<group>"; };
+		3F0BB71706E2C396E593201FE1CBD5A4 /* AUIGenericContainerTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIGenericContainerTableViewCell.swift; path = AUIKit/Elements/TableView/Cell/AUIGenericContainerTableViewCell.swift; sourceTree = "<group>"; };
+		41564595F423289FE13E1B72A41D85C9 /* AUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIImageView.swift; path = AUIKit/Elements/ImageView/AUIImageView.swift; sourceTree = "<group>"; };
+		432A79CED5BC36DA0C9509D6610E9F34 /* AUIDefaultTitlePickerComponentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTitlePickerComponentController.swift; path = AUIKit/Elements/Picker/Title/AUIDefaultTitlePickerComponentController.swift; sourceTree = "<group>"; };
+		43CE859F98B1E3B88262C510EFE12285 /* Pods-BlueKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlueKit-dummy.m"; sourceTree = "<group>"; };
+		44B1FCC67A91A999D16914D721222464 /* AUIInputTextFilterTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIInputTextFilterTextViewController.swift; path = AUIKit/Elements/TextView/Input/AUIInputTextFilterTextViewController.swift; sourceTree = "<group>"; };
+		45AD8539808EF45F70FEBED22700CC8A /* BTextInputFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTextInputFilter.framework; path = BTextInputFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462BE00C10F850D036B18AB6CF38A40A /* AUIViewPickerItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIViewPickerItemController.swift; path = AUIKit/Elements/Picker/View/AUIViewPickerItemController.swift; sourceTree = "<group>"; };
+		463FA2FDAD1957510018F7A7BFCB4447 /* BTextInputValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTextInputValidator.framework; path = BTextInputValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F73F73BF66F99F3D9146E28B2A798A /* AUITableViewCellView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITableViewCellView.swift; path = AUIKit/Elements/TableView/Cell/AUITableViewCellView.swift; sourceTree = "<group>"; };
+		490BA42771F0DB339ADF38D203DCF757 /* AUIViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIViewContainer.swift; path = AUIKit/Elements/CollectionView/Cells/AUIViewContainer.swift; sourceTree = "<group>"; };
+		4B308EFA275A9B8EC67B5238B795D865 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		4CA276C749303377297E51A0E50E67DD /* Pods-BlueKitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlueKitTests.modulemap"; sourceTree = "<group>"; };
+		4CB56DC33A22B974B4A52182249128BB /* AUIResponsiveSubtextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIResponsiveSubtextFieldView.swift; path = AUIKit/Elements/TextField/SubtextField/Responsive/AUIResponsiveSubtextFieldView.swift; sourceTree = "<group>"; };
+		4DE4E65F9E0A0C0D7A0BD171D6B1E827 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		500376489B6206A92CC460EC80D564B5 /* TextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputFormatter.swift; path = Source/TextFormatter/TextFormatterProtocols/TextInputFormatter.swift; sourceTree = "<group>"; };
+		52E1B396BC3EC94587A74B3FB7C7F0DA /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		52ECF79FD76CEE211DD6B726EB19782E /* BTextInputFilter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTextInputFilter.modulemap; sourceTree = "<group>"; };
+		53FEEB34FEF4680BA2E405AA04343122 /* DefaultTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultTextFormatter.swift; path = Source/TextFormatter/DefaultTextInputFormatters/DefaultTextFormatter.swift; sourceTree = "<group>"; };
+		5458517208C3551E1370CF2288322B25 /* AUIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIApplication.swift; path = AUIKit/Application/AUIApplication.swift; sourceTree = "<group>"; };
+		566797E8174A7BB4C86F9552321FAB26 /* AUIDefaultSubtextViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSubtextViewViewController.swift; path = AUIKit/Elements/TextView/SubtextView/AUIDefaultSubtextViewViewController.swift; sourceTree = "<group>"; };
+		58A1202966C6656B37C572B2CB5D2293 /* SymbolRegexTextInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SymbolRegexTextInputValidator.swift; path = BTextInputValidator/Source/Implementations/SymbolRegexTextInputValidator.swift; sourceTree = "<group>"; };
+		58CC5D259F3ED8AEE950E1AEC9C6471C /* SumTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextInputFormatter.swift; path = Source/TextFormatter/SumFormatters/SumTextInputFormatter.swift; sourceTree = "<group>"; };
+		5B4984A4AF63DDC034B63D10230B00A4 /* AUIDefaultResponsiveSubtextFieldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultResponsiveSubtextFieldViewController.swift; path = AUIKit/Elements/TextField/SubtextField/Responsive/AUIDefaultResponsiveSubtextFieldViewController.swift; sourceTree = "<group>"; };
+		5B9C5BDF4F2E61C952024390C7A5E94F /* AUIInputTextValidatorTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIInputTextValidatorTextFieldController.swift; path = "AUIKit/Elements/TextField/InputControl/New Group/AUIInputTextValidatorTextFieldController.swift"; sourceTree = "<group>"; };
+		5E83195E4B172154276BC3B681C8B642 /* TextInputFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputFilter.swift; path = TextInputFilter/Source/TextInputFilter.swift; sourceTree = "<group>"; };
+		5F5F0E009B66593174D5E1B9286CFFC3 /* Pods-BlueKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlueKit-Info.plist"; sourceTree = "<group>"; };
+		6199970D7CE2B78EC6E4C7ECBAC56A02 /* AUICollectionViewCellController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUICollectionViewCellController.swift; path = AUIKit/Elements/CollectionView/CellControllers/AUICollectionViewCellController.swift; sourceTree = "<group>"; };
+		642DE615069BA7AEC9182F283B949626 /* AUITextInputFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextInputFilter.swift; path = "AUIKit/Behaviour /TextInput/Filters/AUITextInputFilter.swift"; sourceTree = "<group>"; };
+		652485243372A6FA054F53A7CDAF26C7 /* DefaultTextInputFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultTextInputFormatter.swift; path = Source/TextFormatter/DefaultTextInputFormatters/DefaultTextInputFormatter.swift; sourceTree = "<group>"; };
+		6532A8627C1E63AFB4D702CE1373CE16 /* AUITextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextViewController.swift; path = AUIKit/Elements/TextView/AUITextViewController.swift; sourceTree = "<group>"; };
+		66E9DF1A06B0738FD4C2F070358BA618 /* AUIElementCollectionViewCellController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIElementCollectionViewCellController.swift; path = AUIKit/Elements/CollectionView/CellControllers/AUIElementCollectionViewCellController.swift; sourceTree = "<group>"; };
+		6876A305F743AA13FABB664817D4AA91 /* AnyFormatKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnyFormatKit.modulemap; sourceTree = "<group>"; };
+		68B5D84A8BA7C5242249519C79DEA7BD /* RegexEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexEvaluator.swift; path = BTextInputValidator/Source/Helpers/RegexEvaluator.swift; sourceTree = "<group>"; };
+		68CE82E2C790BDF886C40F2E0CF1F29B /* Pods-BlueKitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlueKitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6997BA75FFA8696E6C4913FA81BE3A0E /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		69FBB1DDA712B9C2B3A67477BBB2CB36 /* AnyFormatKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatKit.xcconfig; sourceTree = "<group>"; };
+		6A6A99065E6934B7A7DE498C8F9D2F1B /* AUIToolbarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIToolbarController.swift; path = AUIKit/Elements/Toolbar/AUIToolbarController.swift; sourceTree = "<group>"; };
+		6C06860AD58031A8D3DECB1207568556 /* Pods_BlueKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlueKitTests.framework; path = "Pods-BlueKitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCE8896ADA82FE55857D06F6CED3066 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		6D072AF7E11A8387385B280D229FEB71 /* AUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AUIKit-dummy.m"; sourceTree = "<group>"; };
+		6D309ABCDBAA387D02933B03E0055ADA /* AUIPagesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIPagesController.swift; path = AUIKit/Elements/Pages/AUIPagesController.swift; sourceTree = "<group>"; };
+		6E864A923AB7D7C43C7BBBE8A969D5BB /* BTextInputValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTextInputValidator-dummy.m"; sourceTree = "<group>"; };
+		7008EDAAA962B4D25C18017A20781C35 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		707391BC6302C38A8685FDB76960DBDC /* AUIDefaultSegmentedControlController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSegmentedControlController.swift; path = AUIKit/Elements/SegmentControl/AUIDefaultSegmentedControlController.swift; sourceTree = "<group>"; };
+		7196D8002E39DB68C28F214346C96B60 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Source/Categories/String+Extension.swift"; sourceTree = "<group>"; };
+		72957720286BB14778BB4E32B6B93A07 /* AUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIView.swift; path = AUIKit/Elements/View/AUIView.swift; sourceTree = "<group>"; };
+		73E3A7E359AB90AF4C79B8383E3386D2 /* AUIPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIPageViewController.swift; path = AUIKit/Elements/Pages/Page/AUIPageViewController.swift; sourceTree = "<group>"; };
+		73F6D6395A65C442BDF0912FD4DED989 /* AnyFormatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnyFormatKit.framework; path = AnyFormatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D6914093155DBACF1084CF309C98AA /* AUIDefaultInputTextFilterValidatorFormatterTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultInputTextFilterValidatorFormatterTextViewController.swift; path = AUIKit/Elements/TextView/Input/AUIDefaultInputTextFilterValidatorFormatterTextViewController.swift; sourceTree = "<group>"; };
+		7659D6F4B5FF033FDDB74D6AFB897221 /* AUIReusableTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIReusableTableViewCell.swift; path = AUIKit/Elements/TableView/Cell/AUIReusableTableViewCell.swift; sourceTree = "<group>"; };
+		78995D7F1EE71C7597ACB7378FB7E771 /* AUIGenericContainerTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIGenericContainerTableViewHeaderFooterView.swift; path = AUIKit/Elements/TableView/HeaderFooter/AUIGenericContainerTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		78B8C7A9AE992AE8CBC9D1EFA6264FBF /* AUIDefaultSegmentedControlItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSegmentedControlItemController.swift; path = AUIKit/Elements/SegmentControl/AUIDefaultSegmentedControlItemController.swift; sourceTree = "<group>"; };
+		7A32D0DE03260597B817A8FECD7F3F88 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		7A9CF03ACBE55B50D3C9348EF25216BD /* AUIAutoLayoutBottomAlignedContentViewScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIAutoLayoutBottomAlignedContentViewScrollView.swift; path = AUIKit/Elements/ScrollView/AutoLayoutAlignedContentView/AUIAutoLayoutBottomAlignedContentViewScrollView.swift; sourceTree = "<group>"; };
+		7BE657C7D52274E62FE21DE4182AECE1 /* AUIDefaultPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultPickerController.swift; path = AUIKit/Elements/Picker/AUIDefaultPickerController.swift; sourceTree = "<group>"; };
+		7C328C7EC81538C85B28B66E409E000B /* AUISubbuttonViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISubbuttonViewController.swift; path = AUIKit/Elements/Button/Subbutton/AUISubbuttonViewController.swift; sourceTree = "<group>"; };
+		7DAC6BC0D5E5A817B9C7E8D29FC3A747 /* AUIDefaultImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultImageViewController.swift; path = AUIKit/Elements/ImageView/AUIDefaultImageViewController.swift; sourceTree = "<group>"; };
+		7E0D2E4BD7F88F184FB26E3F9671F810 /* UIStackView+ArrangedSubviews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+ArrangedSubviews.swift"; path = "AUIKit/Elements/StackView/UIStackView+ArrangedSubviews.swift"; sourceTree = "<group>"; };
+		7E616A83C997ED9B0E6003BB54CCC463 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		7F15B9E2939D1E45DD747635E781FACA /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		7F5D6AEA1D88F1DE2BE87A652E421936 /* AUIScrollViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIScrollViewController.swift; path = AUIKit/Elements/ScrollView/AUIScrollViewController.swift; sourceTree = "<group>"; };
+		8012F15A9EE9DFD8D5FC96EA00945CEB /* AUICollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUICollectionViewController.swift; path = AUIKit/Elements/CollectionView/AUICollectionViewController.swift; sourceTree = "<group>"; };
+		80130140E483A42789C1C60DF8CB8A19 /* AUIPickerComponentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIPickerComponentController.swift; path = AUIKit/Elements/Picker/AUIPickerComponentController.swift; sourceTree = "<group>"; };
+		812DCA4FE9FE2517CFFDA0BBBE95C90D /* Pods-BlueKitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlueKitTests-umbrella.h"; sourceTree = "<group>"; };
+		819BFFEB05749030C2051685CF197DCC /* BTextInputFilter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTextInputFilter.xcconfig; sourceTree = "<group>"; };
+		8363778E6855C1C285F048FC680CB50F /* AUISubviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISubviewView.swift; path = AUIKit/Elements/View/Subview/AUISubviewView.swift; sourceTree = "<group>"; };
+		8525B45B2DAE9CCA68C7F15EC64C3E32 /* BTextInputValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTextInputValidator-Info.plist"; sourceTree = "<group>"; };
+		8531371B2C11A566A3D1726CB3849F20 /* AUITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextView.swift; path = AUIKit/Elements/TextView/AUITextView.swift; sourceTree = "<group>"; };
+		860558EC0CADCDADCCD7E86C71AB9E80 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		873287C391DEEEF9BE7B29B6D0D95854 /* AUIButtonController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIButtonController.swift; path = AUIKit/Elements/Button/AUIButtonController.swift; sourceTree = "<group>"; };
+		877EF46A012AF189981D8565815C8AB1 /* AUIInputTextFormatterTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIInputTextFormatterTextFieldController.swift; path = "AUIKit/Elements/TextField/InputControl/New Group/AUIInputTextFormatterTextFieldController.swift"; sourceTree = "<group>"; };
+		87AEEE6FA33F39F280063E7B1BB6F975 /* BTextInputValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTextInputValidator.xcconfig; sourceTree = "<group>"; };
+		8863A56C13F202946EA8961CBEEEF955 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "AUIKit/Colors/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		896B4FC35ECD4EC31F2A0415C386E932 /* AUITitlePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITitlePickerController.swift; path = AUIKit/Elements/Picker/Title/AUITitlePickerController.swift; sourceTree = "<group>"; };
+		8AE3BB3F8632D97D48C7B90C0AEE474F /* AUIDefaultBarItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultBarItemController.swift; path = AUIKit/Elements/BarItem/AUIDefaultBarItemController.swift; sourceTree = "<group>"; };
+		8B56ADE77A0AC4916A89C73F15E513CB /* AUIReusableCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIReusableCollectionCell.swift; path = AUIKit/Elements/CollectionView/Cells/AUIReusableCollectionCell.swift; sourceTree = "<group>"; };
+		8DC4AF72AB8F172CCA665AF0C748DA56 /* AUICollectionViewDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUICollectionViewDelegateProxy.swift; path = AUIKit/Elements/CollectionView/Proxies/AUICollectionViewDelegateProxy.swift; sourceTree = "<group>"; };
+		8E056594B65CF2A298162A41FAA4237D /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		8ED420124ECBBFCCA0580FEDC7837775 /* AUIDefaultControlController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultControlController.swift; path = AUIKit/Elements/Control/AUIDefaultControlController.swift; sourceTree = "<group>"; };
+		8FEF5AF9DB50336E5A08C24A8FE96D7B /* CompositeTextInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositeTextInputValidator.swift; path = BTextInputValidator/Source/Implementations/CompositeTextInputValidator.swift; sourceTree = "<group>"; };
+		90AD616AFDBF77183A9FAF2636BB9CD4 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		91A60F76F9087B761DECBDE72B35A53F /* AUIConfigurableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIConfigurableView.swift; path = AUIKit/Elements/TableView/Cell/AUIConfigurableView.swift; sourceTree = "<group>"; };
+		91A9B3D902A7CAA19EDE3599605D7D3F /* AUIDefaultTextInputControlTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTextInputControlTextFieldController.swift; path = AUIKit/Elements/TextField/InputControl/AUIDefaultTextInputControlTextFieldController.swift; sourceTree = "<group>"; };
+		931BD7CE21749133EE66B36A77CA9A40 /* AUIFilterValidatorFormatterTextInputControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIFilterValidatorFormatterTextInputControl.swift; path = "AUIKit/Behaviour /TextInput/AUIFilterValidatorFormatterTextInputControl.swift"; sourceTree = "<group>"; };
+		94227AE2F22407328CE41B311B641C07 /* AUIDefaultScrollViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultScrollViewController.swift; path = AUIKit/Elements/ScrollView/AUIDefaultScrollViewController.swift; sourceTree = "<group>"; };
+		954B18101BB9E7F5C15DF540B1169778 /* AUITextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextFieldController.swift; path = AUIKit/Elements/TextField/AUITextFieldController.swift; sourceTree = "<group>"; };
+		969DC5FA396563344F296F82B9F82464 /* AUINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUINavigationController.swift; path = AUIKit/Stories/NavigationControllers/AUINavigationController.swift; sourceTree = "<group>"; };
+		97036FE2917AEDD4A7C60B34C53EE978 /* AUICollectionViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUICollectionViewDataSourceProxy.swift; path = AUIKit/Elements/CollectionView/Proxies/AUICollectionViewDataSourceProxy.swift; sourceTree = "<group>"; };
+		97118800161B9DC9DE6D6F37D0876F99 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		977CC12038608A7CA4B86CC79F102B28 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97952E47198F65F2EBBA89DFE212F9C3 /* AUITableViewSectionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITableViewSectionController.swift; path = AUIKit/Elements/TableView/Section/AUITableViewSectionController.swift; sourceTree = "<group>"; };
+		98D95A6500D1BE84C7C17CCE76F4009F /* AUIViewPickerComponentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIViewPickerComponentController.swift; path = AUIKit/Elements/Picker/View/AUIViewPickerComponentController.swift; sourceTree = "<group>"; };
+		99FBAF3F37D051FA1F345002C562598F /* AUIDefaultDatePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultDatePickerController.swift; path = AUIKit/Elements/DatePicker/AUIDefaultDatePickerController.swift; sourceTree = "<group>"; };
+		9A5DF6B12289DFC2614391F943EACA9F /* AUIDefaultTitlePickerItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTitlePickerItemController.swift; path = AUIKit/Elements/Picker/Title/AUIDefaultTitlePickerItemController.swift; sourceTree = "<group>"; };
+		9BC25AE1C519605F71B63412A99D571C /* AUILabelController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUILabelController.swift; path = AUIKit/Elements/Label/AUILabelController.swift; sourceTree = "<group>"; };
+		9CC5FABBD7990153F660C0EA17FAF3DF /* AUIContainerTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIContainerTableViewHeaderFooterView.swift; path = AUIKit/Elements/TableView/HeaderFooter/AUIContainerTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2F869E469A2365B50DE379328CB0FE4 /* Pods-BlueKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlueKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		A34E4E9E5650CB10A929B8FCC119888C /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		A3AC8A7BE62A235903955A9EB9BAB6FF /* AUIInsertingCellControllers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIInsertingCellControllers.swift; path = AUIKit/Elements/CollectionView/DynamicSizeCollection/AUIInsertingCellControllers.swift; sourceTree = "<group>"; };
+		A46A7654B87377FE9FC85529ABB59E69 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		A53BDCC777D08B4469BF9D9E05E81563 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		A635D3BFF17FD84FA9F769B64EBFDCE7 /* AUIPickerItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIPickerItemController.swift; path = AUIKit/Elements/Picker/AUIPickerItemController.swift; sourceTree = "<group>"; };
+		A7080BA7DFBF9EAE269DE36EE75E16B8 /* AUIInputTextFormatterTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIInputTextFormatterTextViewController.swift; path = AUIKit/Elements/TextView/Input/AUIInputTextFormatterTextViewController.swift; sourceTree = "<group>"; };
+		A79FC9BFF8B0EBCD2FB561B162B4C19D /* AUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AUIKit.framework; path = AUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA213E34132751A16808F4E39EB61A0A /* AUIDefaultSwitchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSwitchController.swift; path = AUIKit/Elements/Switch/AUIDefaultSwitchController.swift; sourceTree = "<group>"; };
+		AB1D7189CC9AF4CA4F2B5ED71C382E50 /* AUITextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextField.swift; path = AUIKit/Elements/TextField/AUITextField.swift; sourceTree = "<group>"; };
+		AB99389F8FF2D48B3EA975338A0638C2 /* Pods-BlueKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlueKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE2327AEEC1CEF0CF3A017ED1F2BD74C /* AUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AUIKit.modulemap; sourceTree = "<group>"; };
+		AEFCB1B882B7B815B7C8ABA0A9043B12 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		AF06A582CB6B0580C8834A3D575A6F4C /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		B0830D6DF832726EF3E51F3AFD3D95D3 /* SumTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextFormatter.swift; path = Source/TextFormatter/SumFormatters/SumTextFormatter.swift; sourceTree = "<group>"; };
+		B0C4848AE3C30B509C22754A33CA616D /* AUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUIKit-prefix.pch"; sourceTree = "<group>"; };
+		B1A2591E2AD4019EBEC74E7843C81D37 /* CharacterSetTextInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterSetTextInputValidator.swift; path = BTextInputValidator/Source/Implementations/CharacterSetTextInputValidator.swift; sourceTree = "<group>"; };
+		B2D05E53B7DE2C28F11C0A6C43E9041B /* AUITabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITabBarController.swift; path = AUIKit/Stories/TabBarControllers/AUITabBarController.swift; sourceTree = "<group>"; };
+		B31095C8A6DFD1E07124D9125CC6AE03 /* AUIDefaultLabelController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultLabelController.swift; path = AUIKit/Elements/Label/AUIDefaultLabelController.swift; sourceTree = "<group>"; };
+		B364224F7C734BD3E3902950BE30F1FB /* BTextInputValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTextInputValidator-umbrella.h"; sourceTree = "<group>"; };
+		B38FD1796DFC12D97B545D9EAE0CF211 /* AUIDefaultSubtextFieldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSubtextFieldViewController.swift; path = AUIKit/Elements/TextField/SubtextField/AUIDefaultSubtextFieldViewController.swift; sourceTree = "<group>"; };
+		B41E9735F98BE454460A152C06E17A14 /* AUIDefaultSubcontrolViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSubcontrolViewController.swift; path = AUIKit/Elements/Control/Subcontrol/AUIDefaultSubcontrolViewController.swift; sourceTree = "<group>"; };
+		B83D476F457B2EA81751157D60840AE5 /* AnyFormatKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyFormatKit-dummy.m"; sourceTree = "<group>"; };
+		B957310992364F045A0552D47B0B1EE7 /* AUICollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUICollectionViewCell.swift; path = AUIKit/Elements/CollectionView/Cells/AUICollectionViewCell.swift; sourceTree = "<group>"; };
+		B9772875744355843D382DF063E9D14E /* AUIResponsiveSubtextFieldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIResponsiveSubtextFieldViewController.swift; path = AUIKit/Elements/TextField/SubtextField/Responsive/AUIResponsiveSubtextFieldViewController.swift; sourceTree = "<group>"; };
+		B97AF444254A45D3DBE17F12DA0C28C3 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		BA81B95949D44F79971FEB8F1A13AB0B /* AUIBarButtonItemController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIBarButtonItemController.swift; path = AUIKit/Elements/BarButtonItem/AUIBarButtonItemController.swift; sourceTree = "<group>"; };
+		BDF41D116795ED1F18A17528AA17C205 /* SumFormatParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumFormatParser.swift; path = Source/TextFormatter/SumFormatters/SumFormatParser.swift; sourceTree = "<group>"; };
+		BE527185F46027B6B2D8B7F509190A85 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		BE65241FC0956DFD33F7E102E1B47DD2 /* AUIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIButton.swift; path = AUIKit/Elements/Button/AUIButton.swift; sourceTree = "<group>"; };
+		BEB2138463C2905508A169B1A364C931 /* AUITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITableView.swift; path = AUIKit/Elements/TableView/AUITableView.swift; sourceTree = "<group>"; };
+		BF4F6F61DE466A7B1C1C953A97ABB01F /* Pods-BlueKitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlueKitTests-Info.plist"; sourceTree = "<group>"; };
+		C0009DDC9DC7CE830E6C24B52AAA26DF /* AUITableViewHeaderFooterController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITableViewHeaderFooterController.swift; path = AUIKit/Elements/TableView/HeaderFooter/AUITableViewHeaderFooterController.swift; sourceTree = "<group>"; };
+		C0410CE2CCDD0E071FC0873336A22EA4 /* AUIUpdatingCellControllers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIUpdatingCellControllers.swift; path = AUIKit/Elements/CollectionView/DynamicSizeCollection/AUIUpdatingCellControllers.swift; sourceTree = "<group>"; };
+		C15A89DDB3AFE2764F8155DE98E045EF /* AUISwitchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISwitchController.swift; path = AUIKit/Elements/Switch/AUISwitchController.swift; sourceTree = "<group>"; };
+		C1AE915511E65D0F23F63762B49CB93B /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		C1CAFA7099706CA478513CE399116278 /* AUIDefaultPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultPresentation.swift; path = AUIKit/Presentation/AUIDefaultPresentation.swift; sourceTree = "<group>"; };
+		C334B07D164B87C579CF724580AA58B8 /* TextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatter.swift; path = Source/TextFormatter/TextFormatterProtocols/TextFormatter.swift; sourceTree = "<group>"; };
+		C33F523994D90D6A830CC15A509D4CE5 /* AUIDeletingCellControllers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDeletingCellControllers.swift; path = AUIKit/Elements/CollectionView/DynamicSizeCollection/AUIDeletingCellControllers.swift; sourceTree = "<group>"; };
+		C34D3FAA091237B07A8601D35BEB8465 /* Pods-BlueKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlueKit.release.xcconfig"; sourceTree = "<group>"; };
+		C3DE2628CFBF743704B6B289E2BEA93D /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		C3E0CB83A48E05AB1923970DF7E2074C /* UIPageControl+PreferredSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageControl+PreferredSize.swift"; path = "AUIKit/Elements/PageControl/UIPageControl+PreferredSize.swift"; sourceTree = "<group>"; };
+		C65D318F2F68AF3AB50A3D0B01FC143B /* Pods-BlueKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlueKit.modulemap"; sourceTree = "<group>"; };
+		C6A0903D27306FE1ED3910A5A9EB8E00 /* AUIDefaultPageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultPageController.swift; path = AUIKit/Elements/Pages/Page/AUIDefaultPageController.swift; sourceTree = "<group>"; };
+		C6B51D946ABF540C02A45AB5338CD7D7 /* AUIDefaultRefreshControlController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultRefreshControlController.swift; path = AUIKit/Elements/RefreshControl/AUIDefaultRefreshControlController.swift; sourceTree = "<group>"; };
+		C6BD4F4DB3AD75DF3F5BA48688566D04 /* AUIInputTextValidatorTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIInputTextValidatorTextViewController.swift; path = AUIKit/Elements/TextView/Input/AUIInputTextValidatorTextViewController.swift; sourceTree = "<group>"; };
+		C76896E28C89C7391FC04CC2FCECC56F /* AUIDefaultSubbuttonViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSubbuttonViewController.swift; path = AUIKit/Elements/Button/Subbutton/AUIDefaultSubbuttonViewController.swift; sourceTree = "<group>"; };
+		C78A22ABB83C5ED3AFD86FD8B1408FE1 /* AUIDefaultApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultApplication.swift; path = AUIKit/Application/AUIDefaultApplication.swift; sourceTree = "<group>"; };
+		C87679DE735E6588F59BD7F8B948E8A1 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		CAA19EC8D6CA6BA8AD5543A8D4889882 /* AUIDefaultSubviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultSubviewViewController.swift; path = AUIKit/Elements/View/Subview/AUIDefaultSubviewViewController.swift; sourceTree = "<group>"; };
+		CAAA67FD8EDB8D928EDD8D0ACFA86CF1 /* BTextInputFilter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTextInputFilter-umbrella.h"; sourceTree = "<group>"; };
+		CBD6599461A16FAA7A97031F2E44D040 /* SumTextInputFormatterCaretPositionCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumTextInputFormatterCaretPositionCalculator.swift; path = Source/TextFormatter/SumFormatters/SumTextInputFormatterCaretPositionCalculator.swift; sourceTree = "<group>"; };
+		CDC89EA13E14E38E6D8C40DC5EDD3D9D /* AUIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIScrollView.swift; path = AUIKit/Elements/ScrollView/AUIScrollView.swift; sourceTree = "<group>"; };
+		D23C723C87D5519862A12341974E7C13 /* AUIDefaultTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTextFieldController.swift; path = AUIKit/Elements/TextField/AUIDefaultTextFieldController.swift; sourceTree = "<group>"; };
+		D26A08502BB9E05E71F8E43B33990F7D /* TextInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInputValidator.swift; path = BTextInputValidator/Source/Protocols/TextInputValidator.swift; sourceTree = "<group>"; };
+		D522E89F7044532366982EEE114EBBE6 /* AnyFormatKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnyFormatKit-Info.plist"; sourceTree = "<group>"; };
+		D82EA79B85FD01DBD0559FD7C94F2165 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		D927DEB132873F684A3C1E0F680676AC /* AnyFormatKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatKit-umbrella.h"; sourceTree = "<group>"; };
+		DA095445BB783A8D523A62AF282B9997 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		DAFFE861516025D02BD20806AF276A0C /* AUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AUIKit-Info.plist"; sourceTree = "<group>"; };
+		DD5B62E29514401DD1A305F9087A1A5D /* AUIDefaultScreenController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultScreenController.swift; path = AUIKit/Screens/AUIDefaultScreenController.swift; sourceTree = "<group>"; };
+		DFDAA13FB5808140B9A6E004EEC703E8 /* BTextInputFilter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTextInputFilter-Info.plist"; sourceTree = "<group>"; };
+		E022A265CF8BB681C65020A1736B3D98 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		E163577301F6189E8D1DAF38C9EC49C3 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		E3103EF671D6C7FB8862CFCC974A5C12 /* Pods_BlueKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlueKit.framework; path = "Pods-BlueKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4ED229126C5FBB0BC81886A09552DB0 /* AUISubcontrolViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUISubcontrolViewController.swift; path = AUIKit/Elements/Control/Subcontrol/AUISubcontrolViewController.swift; sourceTree = "<group>"; };
+		E7CA63A73B0FBA9B90538C43617736C1 /* AUIDefaultToolbarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultToolbarController.swift; path = AUIKit/Elements/Toolbar/AUIDefaultToolbarController.swift; sourceTree = "<group>"; };
+		E910F1B07A6975D3B0FBDB739783764E /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		EC3C6EFDD7E9802A35F8A7CC7486AC7D /* AUIDefaultTableViewSectionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTableViewSectionController.swift; path = AUIKit/Elements/TableView/Section/AUIDefaultTableViewSectionController.swift; sourceTree = "<group>"; };
+		ECD948FE8E51B287880A36888AF83DEC /* StringRegexTextInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringRegexTextInputValidator.swift; path = BTextInputValidator/Source/Implementations/StringRegexTextInputValidator.swift; sourceTree = "<group>"; };
+		ECEA17BC8E502550DCDFBDA53DA249C1 /* AUIPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIPresentation.swift; path = AUIKit/Presentation/AUIPresentation.swift; sourceTree = "<group>"; };
+		EEF027C931BAAA45691E47559769DFE7 /* AUITitlePickerComponentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITitlePickerComponentController.swift; path = AUIKit/Elements/Picker/Title/AUITitlePickerComponentController.swift; sourceTree = "<group>"; };
+		EF2D4E943C9941DF729BB4F8D638DCCB /* AUITableViewHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITableViewHeaderFooterView.swift; path = AUIKit/Elements/TableView/HeaderFooter/AUITableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		EFD05BE5A964F3DD682E0A9BEC52B16F /* AUIElementTableViewHeaderFooterController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIElementTableViewHeaderFooterController.swift; path = AUIKit/Elements/TableView/HeaderFooter/AUIElementTableViewHeaderFooterController.swift; sourceTree = "<group>"; };
+		EFE2F4A2A109AF58A68F31B0AC2155EE /* AUIDefaultInputTextFilterValidatorFormatterTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultInputTextFilterValidatorFormatterTextFieldController.swift; path = "AUIKit/Elements/TextField/InputControl/New Group/AUIDefaultInputTextFilterValidatorFormatterTextFieldController.swift"; sourceTree = "<group>"; };
+		F10086C5C21CDE4A98BF0A2130637458 /* AUIRefreshControlController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIRefreshControlController.swift; path = AUIKit/Elements/RefreshControl/AUIRefreshControlController.swift; sourceTree = "<group>"; };
+		F14706BB6DA569F6024DA3508F060889 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "BTextInputValidator/Source/Helpers/String+Extension.swift"; sourceTree = "<group>"; };
+		F4E79F067450580E6F6889F1D100B8D6 /* AUITextInputControlTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextInputControlTextFieldController.swift; path = AUIKit/Elements/TextField/InputControl/AUITextInputControlTextFieldController.swift; sourceTree = "<group>"; };
+		F53406180C41A2759C456448CE46278A /* AUIAttributedLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIAttributedLabel.swift; path = AUIKit/Elements/Label/AUIAttributedLabel.swift; sourceTree = "<group>"; };
+		F6841E94A8C9B25CCFF9448AC4277221 /* AUIDefaultViewPickerComponentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultViewPickerComponentController.swift; path = AUIKit/Elements/Picker/View/AUIDefaultViewPickerComponentController.swift; sourceTree = "<group>"; };
+		F78BFC561C9A3D17BCC01541D6D0997A /* AUIDefaultTitlePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTitlePickerController.swift; path = AUIKit/Elements/Picker/Title/AUIDefaultTitlePickerController.swift; sourceTree = "<group>"; };
+		F90DA945392CA686503E2956BAB95A76 /* AUITableViewCellController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITableViewCellController.swift; path = AUIKit/Elements/TableView/Cell/AUITableViewCellController.swift; sourceTree = "<group>"; };
+		F922DCFB2D4A9E07C1EBD3615D7E2A09 /* MaxLengthTextInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaxLengthTextInputValidator.swift; path = BTextInputValidator/Source/Implementations/MaxLengthTextInputValidator.swift; sourceTree = "<group>"; };
+		F969EAE7CD0EA84358787CAED3DC4EC4 /* BTextInputValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTextInputValidator.modulemap; sourceTree = "<group>"; };
+		F9B02158BCD2A2980CD4C3D8059E45DD /* BTextInputFilter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTextInputFilter-dummy.m"; sourceTree = "<group>"; };
+		F9FCB59B2BFEE137F293CCBC0B34258B /* AUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AUIKit.xcconfig; sourceTree = "<group>"; };
+		FA1256466A75FE0EA1B7A80B9D0EB24A /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		FB06A1EAB4CEF08B4C6F5A3BC9140EA8 /* AUIPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIPickerController.swift; path = AUIKit/Elements/Picker/AUIPickerController.swift; sourceTree = "<group>"; };
+		FB236C6AEFDA44CA2473382F655A0D86 /* AUITextInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUITextInputValidator.swift; path = "AUIKit/Behaviour /TextInput/Validators/AUITextInputValidator.swift"; sourceTree = "<group>"; };
+		FBE30257369F21B4B5676A8F380F1717 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		FDD3E55EED339F87ED73DABC2B1982A0 /* AUIUpdatableWideCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIUpdatableWideCollectionViewLayout.swift; path = AUIKit/Elements/CollectionView/DynamicSizeCollection/AUIUpdatableWideCollectionViewLayout.swift; sourceTree = "<group>"; };
+		FE3892E905F09FA9AA2C293B4ADFE36C /* CharacterSetTextInputFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterSetTextInputFilter.swift; path = TextInputFilter/Source/CharacterSetTextInputFilter.swift; sourceTree = "<group>"; };
+		FE7CC6C0BAB3F3382B4AFD43AC7E0DEC /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		FF3E5804CB4DB70563C6A4E4B135A14C /* AUIDefaultTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIDefaultTextViewController.swift; path = AUIKit/Elements/TextView/AUIDefaultTextViewController.swift; sourceTree = "<group>"; };
+		FFD2713BFA54F234EAC45C2F6883D5CB /* AUIToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUIToolbar.swift; path = AUIKit/Elements/Toolbar/AUIToolbar.swift; sourceTree = "<group>"; };
+		FFF9A571E4384C261AB064971FEC5890 /* Pods-BlueKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlueKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D2D176B6DC9160F6EBABABBE1EC4811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F5687C1F6850FC4EEE137E587E8724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A173863657894A01CB54BA862DDBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67776864843D84DC929C1B66FF8C94F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B38257AC0689C04AEB57F299816C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FE4EFA58DB08D317AF8D17BB2C8F78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918290987D5EB06507BFA8D9E8AAE65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE9D02C1BF930595DC452E11326536F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A500D121FDAEEA4DA462F129E3309DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A5AC2AF1BCB43D732C5F29236E78CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB469332A7FB602313604F2F33B4FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF74CB5BF558976DF9A078766A320AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3A17105C8F6D132F559534FBA740F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0E1C35308EE687DB60704D95B11CF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5A1584ABD4B1B03D1223C98F63DCA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ECF79FD76CEE211DD6B726EB19782E /* BTextInputFilter.modulemap */,
+				819BFFEB05749030C2051685CF197DCC /* BTextInputFilter.xcconfig */,
+				F9B02158BCD2A2980CD4C3D8059E45DD /* BTextInputFilter-dummy.m */,
+				DFDAA13FB5808140B9A6E004EEC703E8 /* BTextInputFilter-Info.plist */,
+				3E7A34009FF81F53D37F7B1F01888A81 /* BTextInputFilter-prefix.pch */,
+				CAAA67FD8EDB8D928EDD8D0ACFA86CF1 /* BTextInputFilter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BTextInputFilter";
+			sourceTree = "<group>";
+		};
+		4EE022F2467D76268996C0D576605C4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5215F580CD02C8573217EF41C420448 /* AnyFormatKit */,
+				F8F6473513D9BC55877F93A97BBCE830 /* AUIKit */,
+				7CB06AB2978A249512B56E4D41D0D5EA /* BTextInputFilter */,
+				98307858E63861403D37F9E1EEDD6F9D /* BTextInputValidator */,
+				94FC61F3C1E6F4B753B96507AAF33A00 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52DAA2C04ED12B7344BAB8D20BBB5034 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6876A305F743AA13FABB664817D4AA91 /* AnyFormatKit.modulemap */,
+				69FBB1DDA712B9C2B3A67477BBB2CB36 /* AnyFormatKit.xcconfig */,
+				B83D476F457B2EA81751157D60840AE5 /* AnyFormatKit-dummy.m */,
+				D522E89F7044532366982EEE114EBBE6 /* AnyFormatKit-Info.plist */,
+				37E3C35E504992C75282E60106313A90 /* AnyFormatKit-prefix.pch */,
+				D927DEB132873F684A3C1E0F680676AC /* AnyFormatKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnyFormatKit";
+			sourceTree = "<group>";
+		};
+		70A87E0B38EEE8702B111B1A6920CA0C /* Pods-BlueKit */ = {
+			isa = PBXGroup;
+			children = (
+				C65D318F2F68AF3AB50A3D0B01FC143B /* Pods-BlueKit.modulemap */,
+				FFF9A571E4384C261AB064971FEC5890 /* Pods-BlueKit-acknowledgements.markdown */,
+				A2F869E469A2365B50DE379328CB0FE4 /* Pods-BlueKit-acknowledgements.plist */,
+				43CE859F98B1E3B88262C510EFE12285 /* Pods-BlueKit-dummy.m */,
+				5F5F0E009B66593174D5E1B9286CFFC3 /* Pods-BlueKit-Info.plist */,
+				2CC5EBBD56236E76BCF0C0EE2C9F4309 /* Pods-BlueKit-umbrella.h */,
+				15DBBBAE5E6390F8BE9407C7492FF883 /* Pods-BlueKit.debug.xcconfig */,
+				C34D3FAA091237B07A8601D35BEB8465 /* Pods-BlueKit.release.xcconfig */,
+			);
+			name = "Pods-BlueKit";
+			path = "Target Support Files/Pods-BlueKit";
+			sourceTree = "<group>";
+		};
+		7CB06AB2978A249512B56E4D41D0D5EA /* BTextInputFilter */ = {
+			isa = PBXGroup;
+			children = (
+				FE3892E905F09FA9AA2C293B4ADFE36C /* CharacterSetTextInputFilter.swift */,
+				0CA5E160D628EA80D77B2A4B6A5ED26F /* RegexTextInputFilter.swift */,
+				5E83195E4B172154276BC3B681C8B642 /* TextInputFilter.swift */,
+				0D5A1584ABD4B1B03D1223C98F63DCA6 /* Support Files */,
+			);
+			name = BTextInputFilter;
+			path = BTextInputFilter;
+			sourceTree = "<group>";
+		};
+		882764AA0EC2673484C59F937B2A47CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F969EAE7CD0EA84358787CAED3DC4EC4 /* BTextInputValidator.modulemap */,
+				87AEEE6FA33F39F280063E7B1BB6F975 /* BTextInputValidator.xcconfig */,
+				6E864A923AB7D7C43C7BBBE8A969D5BB /* BTextInputValidator-dummy.m */,
+				8525B45B2DAE9CCA68C7F15EC64C3E32 /* BTextInputValidator-Info.plist */,
+				359CBAF6CFE563E3076F1DD9555225E0 /* BTextInputValidator-prefix.pch */,
+				B364224F7C734BD3E3902950BE30F1FB /* BTextInputValidator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BTextInputValidator";
+			sourceTree = "<group>";
+		};
+		94FC61F3C1E6F4B753B96507AAF33A00 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				3001EE3033942BB7BF0F864BE87AD2B1 /* Constraint.swift */,
+				7F15B9E2939D1E45DD747635E781FACA /* ConstraintAttributes.swift */,
+				7A32D0DE03260597B817A8FECD7F3F88 /* ConstraintConfig.swift */,
+				E022A265CF8BB681C65020A1736B3D98 /* ConstraintConstantTarget.swift */,
+				E910F1B07A6975D3B0FBDB739783764E /* ConstraintDescription.swift */,
+				DA095445BB783A8D523A62AF282B9997 /* ConstraintDSL.swift */,
+				1B5961BF34886F7D0292A806635BED67 /* ConstraintInsets.swift */,
+				4B308EFA275A9B8EC67B5238B795D865 /* ConstraintInsetTarget.swift */,
+				860558EC0CADCDADCCD7E86C71AB9E80 /* ConstraintItem.swift */,
+				AF06A582CB6B0580C8834A3D575A6F4C /* ConstraintLayoutGuide.swift */,
+				1CEC4F1CFCA15CF99CDCC8694E198A43 /* ConstraintLayoutGuide+Extensions.swift */,
+				FE7CC6C0BAB3F3382B4AFD43AC7E0DEC /* ConstraintLayoutGuideDSL.swift */,
+				52E1B396BC3EC94587A74B3FB7C7F0DA /* ConstraintLayoutSupport.swift */,
+				FA1256466A75FE0EA1B7A80B9D0EB24A /* ConstraintLayoutSupportDSL.swift */,
+				6CCE8896ADA82FE55857D06F6CED3066 /* ConstraintMaker.swift */,
+				7008EDAAA962B4D25C18017A20781C35 /* ConstraintMakerEditable.swift */,
+				A46A7654B87377FE9FC85529ABB59E69 /* ConstraintMakerExtendable.swift */,
+				FBE30257369F21B4B5676A8F380F1717 /* ConstraintMakerFinalizable.swift */,
+				90AD616AFDBF77183A9FAF2636BB9CD4 /* ConstraintMakerPriortizable.swift */,
+				A53BDCC777D08B4469BF9D9E05E81563 /* ConstraintMakerRelatable.swift */,
+				97118800161B9DC9DE6D6F37D0876F99 /* ConstraintMultiplierTarget.swift */,
+				37C825DE0B3C07A244CBA76F09E6CC95 /* ConstraintOffsetTarget.swift */,
+				4DE4E65F9E0A0C0D7A0BD171D6B1E827 /* ConstraintPriority.swift */,
+				A34E4E9E5650CB10A929B8FCC119888C /* ConstraintPriorityTarget.swift */,
+				222DECEF7587182878A419E17E4ABA0E /* ConstraintRelatableTarget.swift */,
+				C87679DE735E6588F59BD7F8B948E8A1 /* ConstraintRelation.swift */,
+				B97AF444254A45D3DBE17F12DA0C28C3 /* ConstraintView.swift */,
+				AEFCB1B882B7B815B7C8ABA0A9043B12 /* ConstraintView+Extensions.swift */,
+				977CC12038608A7CA4B86CC79F102B28 /* ConstraintViewDSL.swift */,
+				C3DE2628CFBF743704B6B289E2BEA93D /* Debugging.swift */,
+				C1AE915511E65D0F23F63762B49CB93B /* LayoutConstraint.swift */,
+				2394BF250DE5EC45C47EE8D7B21721AA /* LayoutConstraintItem.swift */,
+				0CDEB1F018F4619D3024B3115BB9D558 /* Typealiases.swift */,
+				6997BA75FFA8696E6C4913FA81BE3A0E /* UILayoutSupport+Extensions.swift */,
+				FF420DF336B13C26396EF619A17B6868 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		98307858E63861403D37F9E1EEDD6F9D /* BTextInputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				B1A2591E2AD4019EBEC74E7843C81D37 /* CharacterSetTextInputValidator.swift */,
+				8FEF5AF9DB50336E5A08C24A8FE96D7B /* CompositeTextInputValidator.swift */,
+				F922DCFB2D4A9E07C1EBD3615D7E2A09 /* MaxLengthTextInputValidator.swift */,
+				68B5D84A8BA7C5242249519C79DEA7BD /* RegexEvaluator.swift */,
+				F14706BB6DA569F6024DA3508F060889 /* String+Extension.swift */,
+				ECD948FE8E51B287880A36888AF83DEC /* StringRegexTextInputValidator.swift */,
+				58A1202966C6656B37C572B2CB5D2293 /* SymbolRegexTextInputValidator.swift */,
+				D26A08502BB9E05E71F8E43B33990F7D /* TextInputValidator.swift */,
+				882764AA0EC2673484C59F937B2A47CB /* Support Files */,
+			);
+			name = BTextInputValidator;
+			path = BTextInputValidator;
+			sourceTree = "<group>";
+		};
+		AEE29A9A23D4395BB417A9A11402ED19 /* Pods-BlueKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA276C749303377297E51A0E50E67DD /* Pods-BlueKitTests.modulemap */,
+				3D07E7E3199CFEDBA6A5D69F7EBF76BC /* Pods-BlueKitTests-acknowledgements.markdown */,
+				68CE82E2C790BDF886C40F2E0CF1F29B /* Pods-BlueKitTests-acknowledgements.plist */,
+				0976DD38176BE494E3622A784912EA6D /* Pods-BlueKitTests-dummy.m */,
+				BF4F6F61DE466A7B1C1C953A97ABB01F /* Pods-BlueKitTests-Info.plist */,
+				812DCA4FE9FE2517CFFDA0BBBE95C90D /* Pods-BlueKitTests-umbrella.h */,
+				1BDD5E85778F4F8035E1A240281676EC /* Pods-BlueKitTests.debug.xcconfig */,
+				AB99389F8FF2D48B3EA975338A0638C2 /* Pods-BlueKitTests.release.xcconfig */,
+			);
+			name = "Pods-BlueKitTests";
+			path = "Target Support Files/Pods-BlueKitTests";
+			sourceTree = "<group>";
+		};
+		BE0DD4482F48A8F27DD67C77694044AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70A87E0B38EEE8702B111B1A6920CA0C /* Pods-BlueKit */,
+				AEE29A9A23D4395BB417A9A11402ED19 /* Pods-BlueKitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4EE022F2467D76268996C0D576605C4C /* Pods */,
+				EC8A558EB132B6AFFC38C95996154E32 /* Products */,
+				BE0DD4482F48A8F27DD67C77694044AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D992E0AE08F33B4E3D4B0259827C258C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE2327AEEC1CEF0CF3A017ED1F2BD74C /* AUIKit.modulemap */,
+				F9FCB59B2BFEE137F293CCBC0B34258B /* AUIKit.xcconfig */,
+				6D072AF7E11A8387385B280D229FEB71 /* AUIKit-dummy.m */,
+				DAFFE861516025D02BD20806AF276A0C /* AUIKit-Info.plist */,
+				B0C4848AE3C30B509C22754A33CA616D /* AUIKit-prefix.pch */,
+				19CB4BAB2CA49B3220ABE381AC7AA4BC /* AUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AUIKit";
+			sourceTree = "<group>";
+		};
+		EC8A558EB132B6AFFC38C95996154E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73F6D6395A65C442BDF0912FD4DED989 /* AnyFormatKit.framework */,
+				A79FC9BFF8B0EBCD2FB561B162B4C19D /* AUIKit.framework */,
+				45AD8539808EF45F70FEBED22700CC8A /* BTextInputFilter.framework */,
+				463FA2FDAD1957510018F7A7BFCB4447 /* BTextInputValidator.framework */,
+				E3103EF671D6C7FB8862CFCC974A5C12 /* Pods_BlueKit.framework */,
+				6C06860AD58031A8D3DECB1207568556 /* Pods_BlueKitTests.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5215F580CD02C8573217EF41C420448 /* AnyFormatKit */ = {
+			isa = PBXGroup;
+			children = (
+				218178A4496D953F47A2C73874D14D72 /* CaretPositionCorrector.swift */,
+				53FEEB34FEF4680BA2E405AA04343122 /* DefaultTextFormatter.swift */,
+				652485243372A6FA054F53A7CDAF26C7 /* DefaultTextInputFormatter.swift */,
+				7196D8002E39DB68C28F214346C96B60 /* String+Extension.swift */,
+				BDF41D116795ED1F18A17528AA17C205 /* SumFormatParser.swift */,
+				B0830D6DF832726EF3E51F3AFD3D95D3 /* SumTextFormatter.swift */,
+				58CC5D259F3ED8AEE950E1AEC9C6471C /* SumTextInputFormatter.swift */,
+				CBD6599461A16FAA7A97031F2E44D040 /* SumTextInputFormatterCaretPositionCalculator.swift */,
+				C334B07D164B87C579CF724580AA58B8 /* TextFormatter.swift */,
+				500376489B6206A92CC460EC80D564B5 /* TextInputFormatter.swift */,
+				52DAA2C04ED12B7344BAB8D20BBB5034 /* Support Files */,
+			);
+			name = AnyFormatKit;
+			path = AnyFormatKit;
+			sourceTree = "<group>";
+		};
+		F8F6473513D9BC55877F93A97BBCE830 /* AUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5458517208C3551E1370CF2288322B25 /* AUIApplication.swift */,
+				F53406180C41A2759C456448CE46278A /* AUIAttributedLabel.swift */,
+				074E06A72B25FBF8520E9D5F9CB987EB /* AUIAutoLayoutAlignedContentViewScrollView.swift */,
+				7A9CF03ACBE55B50D3C9348EF25216BD /* AUIAutoLayoutBottomAlignedContentViewScrollView.swift */,
+				19F9542AF51A29CB192AB08DB1D0653D /* AUIAutoLayoutTopAlignedContentViewScrollView.swift */,
+				BA81B95949D44F79971FEB8F1A13AB0B /* AUIBarButtonItemController.swift */,
+				0327D40BAD854631158716130421A14B /* AUIBarItemController.swift */,
+				BE65241FC0956DFD33F7E102E1B47DD2 /* AUIButton.swift */,
+				873287C391DEEEF9BE7B29B6D0D95854 /* AUIButtonController.swift */,
+				B957310992364F045A0552D47B0B1EE7 /* AUICollectionViewCell.swift */,
+				6199970D7CE2B78EC6E4C7ECBAC56A02 /* AUICollectionViewCellController.swift */,
+				8012F15A9EE9DFD8D5FC96EA00945CEB /* AUICollectionViewController.swift */,
+				297B5729C7C9B18831B5946C0C9BB3F3 /* AUICollectionViewDataSourcePrefetchingProxy.swift */,
+				97036FE2917AEDD4A7C60B34C53EE978 /* AUICollectionViewDataSourceProxy.swift */,
+				8DC4AF72AB8F172CCA665AF0C748DA56 /* AUICollectionViewDelegateProxy.swift */,
+				91A60F76F9087B761DECBDE72B35A53F /* AUIConfigurableView.swift */,
+				05ADF331A2E55608BB1DCBBBF51C4EA6 /* AUIContainerTableViewCell.swift */,
+				9CC5FABBD7990153F660C0EA17FAF3DF /* AUIContainerTableViewHeaderFooterView.swift */,
+				03EC0EE084F8CDA5F04C0171C6337A1D /* AUIControlController.swift */,
+				277DD62A50B2E0983353F288A317AF46 /* AUIDatePickerController.swift */,
+				C78A22ABB83C5ED3AFD86FD8B1408FE1 /* AUIDefaultApplication.swift */,
+				22F43A63693C3CD4B916ED5745BC7856 /* AUIDefaultBarButtonItemController.swift */,
+				8AE3BB3F8632D97D48C7B90C0AEE474F /* AUIDefaultBarItemController.swift */,
+				026C0827FF10EEAAAC5394853B481300 /* AUIDefaultButtonController.swift */,
+				8ED420124ECBBFCCA0580FEDC7837775 /* AUIDefaultControlController.swift */,
+				99FBAF3F37D051FA1F345002C562598F /* AUIDefaultDatePickerController.swift */,
+				7DAC6BC0D5E5A817B9C7E8D29FC3A747 /* AUIDefaultImageViewController.swift */,
+				EFE2F4A2A109AF58A68F31B0AC2155EE /* AUIDefaultInputTextFilterValidatorFormatterTextFieldController.swift */,
+				75D6914093155DBACF1084CF309C98AA /* AUIDefaultInputTextFilterValidatorFormatterTextViewController.swift */,
+				B31095C8A6DFD1E07124D9125CC6AE03 /* AUIDefaultLabelController.swift */,
+				C6A0903D27306FE1ED3910A5A9EB8E00 /* AUIDefaultPageController.swift */,
+				25FCDFDF9880B5CCD288A9C6560F0239 /* AUIDefaultPagesController.swift */,
+				7BE657C7D52274E62FE21DE4182AECE1 /* AUIDefaultPickerController.swift */,
+				C1CAFA7099706CA478513CE399116278 /* AUIDefaultPresentation.swift */,
+				C6B51D946ABF540C02A45AB5338CD7D7 /* AUIDefaultRefreshControlController.swift */,
+				5B4984A4AF63DDC034B63D10230B00A4 /* AUIDefaultResponsiveSubtextFieldViewController.swift */,
+				DD5B62E29514401DD1A305F9087A1A5D /* AUIDefaultScreenController.swift */,
+				94227AE2F22407328CE41B311B641C07 /* AUIDefaultScrollViewController.swift */,
+				707391BC6302C38A8685FDB76960DBDC /* AUIDefaultSegmentedControlController.swift */,
+				78B8C7A9AE992AE8CBC9D1EFA6264FBF /* AUIDefaultSegmentedControlItemController.swift */,
+				C76896E28C89C7391FC04CC2FCECC56F /* AUIDefaultSubbuttonViewController.swift */,
+				B41E9735F98BE454460A152C06E17A14 /* AUIDefaultSubcontrolViewController.swift */,
+				B38FD1796DFC12D97B545D9EAE0CF211 /* AUIDefaultSubtextFieldViewController.swift */,
+				566797E8174A7BB4C86F9552321FAB26 /* AUIDefaultSubtextViewViewController.swift */,
+				CAA19EC8D6CA6BA8AD5543A8D4889882 /* AUIDefaultSubviewViewController.swift */,
+				AA213E34132751A16808F4E39EB61A0A /* AUIDefaultSwitchController.swift */,
+				1E61A16B141E9534B7B7F8F87CF72BBE /* AUIDefaultTableViewController.swift */,
+				EC3C6EFDD7E9802A35F8A7CC7486AC7D /* AUIDefaultTableViewSectionController.swift */,
+				D23C723C87D5519862A12341974E7C13 /* AUIDefaultTextFieldController.swift */,
+				91A9B3D902A7CAA19EDE3599605D7D3F /* AUIDefaultTextInputControlTextFieldController.swift */,
+				FF3E5804CB4DB70563C6A4E4B135A14C /* AUIDefaultTextViewController.swift */,
+				432A79CED5BC36DA0C9509D6610E9F34 /* AUIDefaultTitlePickerComponentController.swift */,
+				F78BFC561C9A3D17BCC01541D6D0997A /* AUIDefaultTitlePickerController.swift */,
+				9A5DF6B12289DFC2614391F943EACA9F /* AUIDefaultTitlePickerItemController.swift */,
+				E7CA63A73B0FBA9B90538C43617736C1 /* AUIDefaultToolbarController.swift */,
+				3E9D85AF843F353DC6A356A8A4C1F768 /* AUIDefaultViewController.swift */,
+				F6841E94A8C9B25CCFF9448AC4277221 /* AUIDefaultViewPickerComponentController.swift */,
+				28A96FE4432CC8615386BE8F139C9D7D /* AUIDefaultViewPickerController.swift */,
+				31E356FE44319D126833CD588AEF4F94 /* AUIDefaultViewPickerItemController.swift */,
+				C33F523994D90D6A830CC15A509D4CE5 /* AUIDeletingCellControllers.swift */,
+				1E196B0DAAE7F2353C56C7A717573B93 /* AUIDynamicSizeCollectionCell.swift */,
+				66E9DF1A06B0738FD4C2F070358BA618 /* AUIElementCollectionViewCellController.swift */,
+				382E8BDCCC231868D6BF937D55A453B4 /* AUIElementTableViewCellController.swift */,
+				EFD05BE5A964F3DD682E0A9BEC52B16F /* AUIElementTableViewHeaderFooterController.swift */,
+				931BD7CE21749133EE66B36A77CA9A40 /* AUIFilterValidatorFormatterTextInputControl.swift */,
+				3F0BB71706E2C396E593201FE1CBD5A4 /* AUIGenericContainerTableViewCell.swift */,
+				78995D7F1EE71C7597ACB7378FB7E771 /* AUIGenericContainerTableViewHeaderFooterView.swift */,
+				41564595F423289FE13E1B72A41D85C9 /* AUIImageView.swift */,
+				364C38BE48F31C6E2D36D10A70CD66A7 /* AUIImageViewContentModeScaleAspectFit.swift */,
+				3046FCDC2A316215403CD42200684F79 /* AUIImageViewController.swift */,
+				1A023666AB7FE1C1B52457B1A818D35B /* AUIInputTextFilterTextFieldController.swift */,
+				44B1FCC67A91A999D16914D721222464 /* AUIInputTextFilterTextViewController.swift */,
+				877EF46A012AF189981D8565815C8AB1 /* AUIInputTextFormatterTextFieldController.swift */,
+				A7080BA7DFBF9EAE269DE36EE75E16B8 /* AUIInputTextFormatterTextViewController.swift */,
+				5B9C5BDF4F2E61C952024390C7A5E94F /* AUIInputTextValidatorTextFieldController.swift */,
+				C6BD4F4DB3AD75DF3F5BA48688566D04 /* AUIInputTextValidatorTextViewController.swift */,
+				A3AC8A7BE62A235903955A9EB9BAB6FF /* AUIInsertingCellControllers.swift */,
+				1FE8FBD98F9F336D501A6A60D2FC71C1 /* AUILabel.swift */,
+				9BC25AE1C519605F71B63412A99D571C /* AUILabelController.swift */,
+				969DC5FA396563344F296F82B9F82464 /* AUINavigationController.swift */,
+				0B7117C633B95C96863BCD7632D35686 /* AUINavigationControllerWithoutBar.swift */,
+				6D309ABCDBAA387D02933B03E0055ADA /* AUIPagesController.swift */,
+				73E3A7E359AB90AF4C79B8383E3386D2 /* AUIPageViewController.swift */,
+				80130140E483A42789C1C60DF8CB8A19 /* AUIPickerComponentController.swift */,
+				FB06A1EAB4CEF08B4C6F5A3BC9140EA8 /* AUIPickerController.swift */,
+				A635D3BFF17FD84FA9F769B64EBFDCE7 /* AUIPickerItemController.swift */,
+				ECEA17BC8E502550DCDFBDA53DA249C1 /* AUIPresentation.swift */,
+				F10086C5C21CDE4A98BF0A2130637458 /* AUIRefreshControlController.swift */,
+				4CB56DC33A22B974B4A52182249128BB /* AUIResponsiveSubtextFieldView.swift */,
+				B9772875744355843D382DF063E9D14E /* AUIResponsiveSubtextFieldViewController.swift */,
+				8B56ADE77A0AC4916A89C73F15E513CB /* AUIReusableCollectionCell.swift */,
+				7659D6F4B5FF033FDDB74D6AFB897221 /* AUIReusableTableViewCell.swift */,
+				0FEACB02A20A1376526C38B4445CA49B /* AUIScreenController.swift */,
+				CDC89EA13E14E38E6D8C40DC5EDD3D9D /* AUIScrollView.swift */,
+				7F5D6AEA1D88F1DE2BE87A652E421936 /* AUIScrollViewController.swift */,
+				3317FDEA28A44F0CCB35B48059F1722C /* AUISegmentedControlController.swift */,
+				2920FEA071E3685400C10601BDC4E8A5 /* AUISegmentedControlItemController.swift */,
+				0C9740FAF9B37C3D9C136302245C89CA /* AUIStatusBarScreenView.swift */,
+				7C328C7EC81538C85B28B66E409E000B /* AUISubbuttonViewController.swift */,
+				E4ED229126C5FBB0BC81886A09552DB0 /* AUISubcontrolViewController.swift */,
+				1EC0D53E5FB0BAFB8FCC7EE2D78E9DC8 /* AUISubtextFieldViewController.swift */,
+				188BCDB60F1FD23BA6ABC0697D02A2FB /* AUISubtextViewViewController.swift */,
+				8363778E6855C1C285F048FC680CB50F /* AUISubviewView.swift */,
+				0C005396CB604035BD607E6472B166C2 /* AUISubviewViewController.swift */,
+				C15A89DDB3AFE2764F8155DE98E045EF /* AUISwitchController.swift */,
+				B2D05E53B7DE2C28F11C0A6C43E9041B /* AUITabBarController.swift */,
+				BEB2138463C2905508A169B1A364C931 /* AUITableView.swift */,
+				F90DA945392CA686503E2956BAB95A76 /* AUITableViewCellController.swift */,
+				47F73F73BF66F99F3D9146E28B2A798A /* AUITableViewCellView.swift */,
+				2471E7A18269C37C828BCE98C789A6FC /* AUITableViewController.swift */,
+				C0009DDC9DC7CE830E6C24B52AAA26DF /* AUITableViewHeaderFooterController.swift */,
+				EF2D4E943C9941DF729BB4F8D638DCCB /* AUITableViewHeaderFooterView.swift */,
+				97952E47198F65F2EBBA89DFE212F9C3 /* AUITableViewSectionController.swift */,
+				AB1D7189CC9AF4CA4F2B5ED71C382E50 /* AUITextField.swift */,
+				954B18101BB9E7F5C15DF540B1169778 /* AUITextFieldController.swift */,
+				1415BB9F90CA9B317EBE283DE0A871E3 /* AUITextInputControl.swift */,
+				F4E79F067450580E6F6889F1D100B8D6 /* AUITextInputControlTextFieldController.swift */,
+				642DE615069BA7AEC9182F283B949626 /* AUITextInputFilter.swift */,
+				0D8704B183034D2612F28160B375DD4D /* AUITextInputFormatter.swift */,
+				FB236C6AEFDA44CA2473382F655A0D86 /* AUITextInputValidator.swift */,
+				8531371B2C11A566A3D1726CB3849F20 /* AUITextView.swift */,
+				6532A8627C1E63AFB4D702CE1373CE16 /* AUITextViewController.swift */,
+				EEF027C931BAAA45691E47559769DFE7 /* AUITitlePickerComponentController.swift */,
+				896B4FC35ECD4EC31F2A0415C386E932 /* AUITitlePickerController.swift */,
+				34FB1E55E26B4485DDD50636D949066F /* AUITitlePickerItemController.swift */,
+				FFD2713BFA54F234EAC45C2F6883D5CB /* AUIToolbar.swift */,
+				6A6A99065E6934B7A7DE498C8F9D2F1B /* AUIToolbarController.swift */,
+				17E2D43B6F7F194380E7453DA693299F /* AUIUpdatableCollectionViewController.swift */,
+				FDD3E55EED339F87ED73DABC2B1982A0 /* AUIUpdatableWideCollectionViewLayout.swift */,
+				C0410CE2CCDD0E071FC0873336A22EA4 /* AUIUpdatingCellControllers.swift */,
+				72957720286BB14778BB4E32B6B93A07 /* AUIView.swift */,
+				490BA42771F0DB339ADF38D203DCF757 /* AUIViewContainer.swift */,
+				26D947886D3EE15605A8E8DB88B538B0 /* AUIViewContainerable.swift */,
+				2B391C35D2F70330171AE9BFA2C54D4D /* AUIViewController.swift */,
+				98D95A6500D1BE84C7C17CCE76F4009F /* AUIViewPickerComponentController.swift */,
+				1B2BC1E324572E4DE99648A91D79ACB1 /* AUIViewPickerController.swift */,
+				462BE00C10F850D036B18AB6CF38A40A /* AUIViewPickerItemController.swift */,
+				8863A56C13F202946EA8961CBEEEF955 /* UIColor+Extension.swift */,
+				C3E0CB83A48E05AB1923970DF7E2074C /* UIPageControl+PreferredSize.swift */,
+				7E0D2E4BD7F88F184FB26E3F9671F810 /* UIStackView+ArrangedSubviews.swift */,
+				D992E0AE08F33B4E3D4B0259827C258C /* Support Files */,
+			);
+			name = AUIKit;
+			path = AUIKit;
+			sourceTree = "<group>";
+		};
+		FF420DF336B13C26396EF619A17B6868 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B3097D7ACFDFEB0043DC27EAC9F06D1 /* SnapKit.modulemap */,
+				D82EA79B85FD01DBD0559FD7C94F2165 /* SnapKit.xcconfig */,
+				7E616A83C997ED9B0E6003BB54CCC463 /* SnapKit-dummy.m */,
+				BE527185F46027B6B2D8B7F509190A85 /* SnapKit-Info.plist */,
+				E163577301F6189E8D1DAF38C9EC49C3 /* SnapKit-prefix.pch */,
+				8E056594B65CF2A298162A41FAA4237D /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C515C36ABF9A8AB5E0694EC97BEAB15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F8AFCCF910F41F7069787FEC787F75 /* BTextInputValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DDD3F658A2B775F8B39BBFA6561635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28400157B63F40AA135BF16780AB4B96 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C21E3835F9645CD5D345D3F204CA07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA470E5AE75CA874716F10FC2BB5970 /* BTextInputFilter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8158C22B1BF4EC5A6391816DBAAE71BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E798CF629D8A3495E12E1D8C68709CEE /* AUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C653CE36B571A73008140B50C8C0E30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3317BD78C534D7EA5C490050037A088 /* Pods-BlueKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907892EBA75EA30DE38443144E109B02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86FC9CC54E77C2597CDE816B9E67C9 /* Pods-BlueKitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316305AE224EED712ABF9DDE55969E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A88055BDDA20D23E7247E9F7745022 /* AnyFormatKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C2F67A24EFF2D5F6410E6A9D00BB2A /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				36DDD3F658A2B775F8B39BBFA6561635 /* Headers */,
+				948D48E19F2A3CAC37461E0DA4FF9A87 /* Sources */,
+				73A173863657894A01CB54BA862DDBBA /* Frameworks */,
+				1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		485B2710710275A609113C16D2265279 /* AUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BD84335D7E3C839EFD56CAC3EEC1B5 /* Build configuration list for PBXNativeTarget "AUIKit" */;
+			buildPhases = (
+				8158C22B1BF4EC5A6391816DBAAE71BF /* Headers */,
+				CD922F7F020DCA40E9849ABF51918BF1 /* Sources */,
+				918290987D5EB06507BFA8D9E8AAE65A /* Frameworks */,
+				60670B09DCEA366C4690FBDEAFBEDC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUIKit;
+			productName = AUIKit;
+			productReference = A79FC9BFF8B0EBCD2FB561B162B4C19D /* AUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77054F18872A72934F33EE2F6D238451 /* BTextInputValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82A6725369322EBCC96F10937CC343A /* Build configuration list for PBXNativeTarget "BTextInputValidator" */;
+			buildPhases = (
+				1C515C36ABF9A8AB5E0694EC97BEAB15 /* Headers */,
+				A0658B020C7070A0665F0566254E0AE5 /* Sources */,
+				A500D121FDAEEA4DA462F129E3309DCC /* Frameworks */,
+				E7AAC9B8727D6B125561BA67DDF6B5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTextInputValidator;
+			productName = BTextInputValidator;
+			productReference = 463FA2FDAD1957510018F7A7BFCB4447 /* BTextInputValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79D21275840C73ECDB70F6F9EFE7228E /* Pods-BlueKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959F20532C700BF5EB5C256E44398C30 /* Build configuration list for PBXNativeTarget "Pods-BlueKitTests" */;
+			buildPhases = (
+				907892EBA75EA30DE38443144E109B02 /* Headers */,
+				C4DEC5BC7D0E047CB00C3E51063E21BA /* Sources */,
+				AB3A17105C8F6D132F559534FBA740F2 /* Frameworks */,
+				5C68D2057FC8700C19576CDB947A8A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C14E884F1AD425776BA52EA8D6F69092 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlueKitTests";
+			productName = "Pods-BlueKitTests";
+			productReference = 6C06860AD58031A8D3DECB1207568556 /* Pods_BlueKitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C07AD7DF8B0F18B7DB12F0D2C1F899D /* AnyFormatKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B4735A378C2DEB182896EE3E932381 /* Build configuration list for PBXNativeTarget "AnyFormatKit" */;
+			buildPhases = (
+				9316305AE224EED712ABF9DDE55969E4 /* Headers */,
+				7019FBFB55951EA0D3CBF8429BFC94BC /* Sources */,
+				AAB469332A7FB602313604F2F33B4FCF /* Frameworks */,
+				A405A484390CA6CF75BF24C428508DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnyFormatKit;
+			productName = AnyFormatKit;
+			productReference = 73F6D6395A65C442BDF0912FD4DED989 /* AnyFormatKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		970103E1A8BBFC9ED2CFE0CFCE637057 /* BTextInputFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA00749EB8F7007283B65870F009109 /* Build configuration list for PBXNativeTarget "BTextInputFilter" */;
+			buildPhases = (
+				65C21E3835F9645CD5D345D3F204CA07 /* Headers */,
+				D987255EA1197CBA89A195EA0FD7CD07 /* Sources */,
+				0D2D176B6DC9160F6EBABABBE1EC4811 /* Frameworks */,
+				11577C3E0C024E647BDFB59FF553BA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTextInputFilter;
+			productName = BTextInputFilter;
+			productReference = 45AD8539808EF45F70FEBED22700CC8A /* BTextInputFilter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B44732F3ABF09F73F7D054D77D5E2934 /* Pods-BlueKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79375D89F6C92E03D62CE3EB022A9DC3 /* Build configuration list for PBXNativeTarget "Pods-BlueKit" */;
+			buildPhases = (
+				8C653CE36B571A73008140B50C8C0E30 /* Headers */,
+				531DFC5D0C260A583C0790514DDD959B /* Sources */,
+				80B38257AC0689C04AEB57F299816C4E /* Frameworks */,
+				5659031FB6E76BA2F1244DBC4995A1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D414943369565BD01A92F8D6E03F4713 /* PBXTargetDependency */,
+				04DA01ED8A6A0290A922B6CC68F5C870 /* PBXTargetDependency */,
+				525ACC9F367153889AA53B8D3E69F582 /* PBXTargetDependency */,
+				C8A6EA9927FA9C61E17179888936542D /* PBXTargetDependency */,
+				0F68D55119F8F7B5EA180BF05BFE6A05 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlueKit";
+			productName = "Pods-BlueKit";
+			productReference = E3103EF671D6C7FB8862CFCC974A5C12 /* Pods_BlueKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC8A558EB132B6AFFC38C95996154E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C07AD7DF8B0F18B7DB12F0D2C1F899D /* AnyFormatKit */,
+				485B2710710275A609113C16D2265279 /* AUIKit */,
+				970103E1A8BBFC9ED2CFE0CFCE637057 /* BTextInputFilter */,
+				77054F18872A72934F33EE2F6D238451 /* BTextInputValidator */,
+				B44732F3ABF09F73F7D054D77D5E2934 /* Pods-BlueKit */,
+				79D21275840C73ECDB70F6F9EFE7228E /* Pods-BlueKitTests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11577C3E0C024E647BDFB59FF553BA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6EE6BB1452EE8D40646CF50CA9922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5659031FB6E76BA2F1244DBC4995A1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68D2057FC8700C19576CDB947A8A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60670B09DCEA366C4690FBDEAFBEDC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A405A484390CA6CF75BF24C428508DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AAC9B8727D6B125561BA67DDF6B5E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		531DFC5D0C260A583C0790514DDD959B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C8B5C31A1AAD01DC44F705610E0BC9 /* Pods-BlueKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7019FBFB55951EA0D3CBF8429BFC94BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAF3A89A351772A0AE5A79DFC552FF0 /* AnyFormatKit-dummy.m in Sources */,
+				1F18C0BDB37523A0397DCA111102A93D /* CaretPositionCorrector.swift in Sources */,
+				BCEDEDB065A66BCC621B0CE35CC0A2E8 /* DefaultTextFormatter.swift in Sources */,
+				24EBBBED86AAC2BCDA5EF7E4F9C59886 /* DefaultTextInputFormatter.swift in Sources */,
+				E41D089F2C02E67C84DFA48222E6ADE6 /* String+Extension.swift in Sources */,
+				6DA7B0958A290A5BBDB19E808E7C35F3 /* SumFormatParser.swift in Sources */,
+				FE00FF5A38ADD6D0CE7E3256F67A47EB /* SumTextFormatter.swift in Sources */,
+				EB2EFEECD160A813A7FD870866E6B55C /* SumTextInputFormatter.swift in Sources */,
+				56D3F2971ECCF0EED88CA5FC3E5CFA59 /* SumTextInputFormatterCaretPositionCalculator.swift in Sources */,
+				ED69F7D9F599032F35DE9AE0D3621CB5 /* TextFormatter.swift in Sources */,
+				60D3FB89B9B5F38166D6BD03278D47AD /* TextInputFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948D48E19F2A3CAC37461E0DA4FF9A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCEFF1B52226DE5ABB2D0043442FE61 /* Constraint.swift in Sources */,
+				A4070B8C9BD30965648B2876CD3C1C43 /* ConstraintAttributes.swift in Sources */,
+				A04D46C4C48247D004BAE5C7AD6E05A3 /* ConstraintConfig.swift in Sources */,
+				9EE2D363A721ACFA89B5B899E1987633 /* ConstraintConstantTarget.swift in Sources */,
+				9E6184458532BFF2E3E3F804C54BD0E7 /* ConstraintDescription.swift in Sources */,
+				6B43F2F53DD6C161CF414A9BF67550C5 /* ConstraintDSL.swift in Sources */,
+				54D1686EFA926E23C4BED5EEE7A19C08 /* ConstraintInsets.swift in Sources */,
+				F41CA723E31884664B9C032D90EAEF1A /* ConstraintInsetTarget.swift in Sources */,
+				CA0FAE669FAB7067D09F7007AD838E19 /* ConstraintItem.swift in Sources */,
+				DBB93D3827327B8FB4CFA164C03357E5 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				FFE7A02118B5288BC94F7422D6CFEB3F /* ConstraintLayoutGuide.swift in Sources */,
+				276EE563D9B688173DBBF47DB80D72D8 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				095547A88EE037F12395713A469C9B60 /* ConstraintLayoutSupport.swift in Sources */,
+				F6C7F81AA5BBC4042A3A78D5EA8E62A4 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				5C376607904258A10F4DDD6D42EFC491 /* ConstraintMaker.swift in Sources */,
+				4268E348E6D5E9037A640ADC8E065009 /* ConstraintMakerEditable.swift in Sources */,
+				FF0E3F8B3FB568ACBB1BC433D67ED093 /* ConstraintMakerExtendable.swift in Sources */,
+				0FA8E62C7A4A6DA9BB841007B5E16CD4 /* ConstraintMakerFinalizable.swift in Sources */,
+				8B8BE709B46663F60DB6A661A3B2A28A /* ConstraintMakerPriortizable.swift in Sources */,
+				35CDFA197D8219EB8DEFC227259A5C03 /* ConstraintMakerRelatable.swift in Sources */,
+				A3DEA82F229FDF7C9444CEFEE3D9AB84 /* ConstraintMultiplierTarget.swift in Sources */,
+				72C2B5D60A24B4B663C8994276A962B6 /* ConstraintOffsetTarget.swift in Sources */,
+				A482F623A133B7E947C01456C779622A /* ConstraintPriority.swift in Sources */,
+				14E9ACC5796C5E35C84DD6659BEB788F /* ConstraintPriorityTarget.swift in Sources */,
+				E85BBB972867783044ADCD772438150F /* ConstraintRelatableTarget.swift in Sources */,
+				C1C2B61E08DAD3B59BA5D82964D39C3C /* ConstraintRelation.swift in Sources */,
+				77A618FE4FF299682F776C974300EBA1 /* ConstraintView+Extensions.swift in Sources */,
+				5544BDD6A14E06C7FB3A878BC3E96299 /* ConstraintView.swift in Sources */,
+				DEC3E541DB551729EC407FA6566CEE54 /* ConstraintViewDSL.swift in Sources */,
+				9432185152350A4A90F6DD19C33AC057 /* Debugging.swift in Sources */,
+				BF7843175A0FB0180B6F4C0249B8874A /* LayoutConstraint.swift in Sources */,
+				7ED12926E82C9D1DE457504DA75B80A9 /* LayoutConstraintItem.swift in Sources */,
+				5DBFB9A0499F04CBE806486211A4ABD0 /* SnapKit-dummy.m in Sources */,
+				0D7A7F3919AE48736753181756DE8AE8 /* Typealiases.swift in Sources */,
+				98AE4E2F24A858A47B5A1B405CEAD8FD /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0658B020C7070A0665F0566254E0AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3341425032C86A4B9053A7C538205 /* BTextInputValidator-dummy.m in Sources */,
+				D73752B00861EDFA19C2D6D3F8221A7D /* CharacterSetTextInputValidator.swift in Sources */,
+				26667306A242D20E49C688B36465283E /* CompositeTextInputValidator.swift in Sources */,
+				11231551E9381517BC1441D528031B32 /* MaxLengthTextInputValidator.swift in Sources */,
+				0F141A326281364E8331F2EFAF15525F /* RegexEvaluator.swift in Sources */,
+				3E96232279ED5EF428E60B89F7988D8D /* String+Extension.swift in Sources */,
+				C3045DF467C0CAB3D7F82068E3EA3CD4 /* StringRegexTextInputValidator.swift in Sources */,
+				C7115616532F881AF5DDE18DF4C9D69D /* SymbolRegexTextInputValidator.swift in Sources */,
+				304BBC2E19EF65134506B22B0B04B529 /* TextInputValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DEC5BC7D0E047CB00C3E51063E21BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33880E6E987EC46109A12D81BCD10F6E /* Pods-BlueKitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD922F7F020DCA40E9849ABF51918BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A7848DABA60289BB8CF9046579DF98 /* AUIApplication.swift in Sources */,
+				DE674597F5E6145A265CA0B328D1CE2F /* AUIAttributedLabel.swift in Sources */,
+				0EFB2F43B466D1F455213EFF61113394 /* AUIAutoLayoutAlignedContentViewScrollView.swift in Sources */,
+				27B3586B6B07ACE0CA11A97B3C8913D9 /* AUIAutoLayoutBottomAlignedContentViewScrollView.swift in Sources */,
+				841028AFBBDE58854B34DA370414F6BF /* AUIAutoLayoutTopAlignedContentViewScrollView.swift in Sources */,
+				15B80C26F9B11DA1BF17CE4A41471544 /* AUIBarButtonItemController.swift in Sources */,
+				37B376CDE5201A2B89C2781CE6B4C5D5 /* AUIBarItemController.swift in Sources */,
+				2A758B3C3E3EB0BA3301638609DB3F2B /* AUIButton.swift in Sources */,
+				A1DDE469BB0660AF598AA865106E989A /* AUIButtonController.swift in Sources */,
+				49ACD51BF1E167F4387724DD0468C422 /* AUICollectionViewCell.swift in Sources */,
+				8527F362B6E1E14DF4E0D4D93F93A89E /* AUICollectionViewCellController.swift in Sources */,
+				9835A0558A7117D232698AE8AAE58E19 /* AUICollectionViewController.swift in Sources */,
+				C23A6BB75B56081DBA6D43F761487D6C /* AUICollectionViewDataSourcePrefetchingProxy.swift in Sources */,
+				A6528C837A86168D6E7D2D89BD109337 /* AUICollectionViewDataSourceProxy.swift in Sources */,
+				0D44EB6D29D1AB98691F218911A78689 /* AUICollectionViewDelegateProxy.swift in Sources */,
+				AD8A2132FCE4D8AE63F663B9403D7B2A /* AUIConfigurableView.swift in Sources */,
+				5C4B6E428AAF400F2AEF2F81B3CFF748 /* AUIContainerTableViewCell.swift in Sources */,
+				165A7025212704E171D9A527D28EF438 /* AUIContainerTableViewHeaderFooterView.swift in Sources */,
+				8870DD34ACA7C2D6B9CB85E1A18FB712 /* AUIControlController.swift in Sources */,
+				B50FB5A72A16A97F0E61DF40F5134F9C /* AUIDatePickerController.swift in Sources */,
+				668550258E9AA699D74A6E71B360B562 /* AUIDefaultApplication.swift in Sources */,
+				079169C27698533917900CD0F420D897 /* AUIDefaultBarButtonItemController.swift in Sources */,
+				9D8173A6D528778E859118265D1823E7 /* AUIDefaultBarItemController.swift in Sources */,
+				877829399F583E13D1EE6856B59B973D /* AUIDefaultButtonController.swift in Sources */,
+				0F03E138F14C7A4CD7B8798296CD7ED3 /* AUIDefaultControlController.swift in Sources */,
+				6C71AA37648502FF1B6C2A775D2E640D /* AUIDefaultDatePickerController.swift in Sources */,
+				D53115EC94B4C259495CDD07A7115436 /* AUIDefaultImageViewController.swift in Sources */,
+				23512EBE7C0952263D84C3F07EC6E476 /* AUIDefaultInputTextFilterValidatorFormatterTextFieldController.swift in Sources */,
+				EA7290BE16E13549C372ECC3975C605D /* AUIDefaultInputTextFilterValidatorFormatterTextViewController.swift in Sources */,
+				FA142AD48C5BF712243427088133BC78 /* AUIDefaultLabelController.swift in Sources */,
+				7BBB1F7C7A875EF07DEEF2B5C7A3094C /* AUIDefaultPageController.swift in Sources */,
+				90B358EB42A83D4881DC4FB718960DB6 /* AUIDefaultPagesController.swift in Sources */,
+				AC1F17F27C63E96101904429A94A52B5 /* AUIDefaultPickerController.swift in Sources */,
+				C0A2BA6239B832A6A97443966E92A53C /* AUIDefaultPresentation.swift in Sources */,
+				95EAE5D1AB7538BD6B3D81ED23EB25D2 /* AUIDefaultRefreshControlController.swift in Sources */,
+				818C02EBCF90012EA2DD9D4821F6BD76 /* AUIDefaultResponsiveSubtextFieldViewController.swift in Sources */,
+				3AC013D4AAABCDAF8C1E59AC5B68DF26 /* AUIDefaultScreenController.swift in Sources */,
+				76D15F93DDE8FF11165385D87939AA1F /* AUIDefaultScrollViewController.swift in Sources */,
+				7B6461FEA27400D8A08E3AF935A7BC10 /* AUIDefaultSegmentedControlController.swift in Sources */,
+				FD0BD70847C09894FD5D6F63811EC239 /* AUIDefaultSegmentedControlItemController.swift in Sources */,
+				823C4B3D139BF1C283244477E817FE9A /* AUIDefaultSubbuttonViewController.swift in Sources */,
+				C3B3B210182737CE2E38C85A0D109427 /* AUIDefaultSubcontrolViewController.swift in Sources */,
+				9DBD8737942A3CD986C253583E9A91E5 /* AUIDefaultSubtextFieldViewController.swift in Sources */,
+				BBD37A59D67DCAB70718DC7E5E50F362 /* AUIDefaultSubtextViewViewController.swift in Sources */,
+				A7087114ADA3374361CF30B6F8DD51A0 /* AUIDefaultSubviewViewController.swift in Sources */,
+				AB6A98DBD47FA017BF1117B2A6FC1852 /* AUIDefaultSwitchController.swift in Sources */,
+				5372A746BAEF8465AC21A5AB41BDDDFF /* AUIDefaultTableViewController.swift in Sources */,
+				55E068A3F07C1F6D7A218EB9FA97920D /* AUIDefaultTableViewSectionController.swift in Sources */,
+				012CAC59EE8A5E38454DD8F977EE06E1 /* AUIDefaultTextFieldController.swift in Sources */,
+				6C2E42F3282AE876DB37CAAE983CB5C5 /* AUIDefaultTextInputControlTextFieldController.swift in Sources */,
+				6DBEF8539A1B4AB1FB9E39A718660E7D /* AUIDefaultTextViewController.swift in Sources */,
+				C73834C1B04705A2D45FD9A4098A6299 /* AUIDefaultTitlePickerComponentController.swift in Sources */,
+				5D43AE1270807B9736F7FBD0305E4145 /* AUIDefaultTitlePickerController.swift in Sources */,
+				1948AC52D4B90836357139E0A3C6BFC1 /* AUIDefaultTitlePickerItemController.swift in Sources */,
+				A8A57A6026CE0F6ECA8EFD8C35922A77 /* AUIDefaultToolbarController.swift in Sources */,
+				A40EC4B7C8E3F641BC922188EFC0B509 /* AUIDefaultViewController.swift in Sources */,
+				03CC71782BC536705A9074A71DAA59B8 /* AUIDefaultViewPickerComponentController.swift in Sources */,
+				9846D614218B3F05091DC4993AC75A5B /* AUIDefaultViewPickerController.swift in Sources */,
+				8DFFCAF9B4791E2149608096BA4EEB9B /* AUIDefaultViewPickerItemController.swift in Sources */,
+				343B52E8FE1994DA393A16580947419B /* AUIDeletingCellControllers.swift in Sources */,
+				49325F6451B4F5BAA273C286B5E420BE /* AUIDynamicSizeCollectionCell.swift in Sources */,
+				C15D5D4104594B6C533538B28588487A /* AUIElementCollectionViewCellController.swift in Sources */,
+				9B8E038F1F2733717E371B975939C99D /* AUIElementTableViewCellController.swift in Sources */,
+				7EDDAB518773659EF39F0CF5F3E36E69 /* AUIElementTableViewHeaderFooterController.swift in Sources */,
+				09CB8F825000265E17A7F603F6683EBF /* AUIFilterValidatorFormatterTextInputControl.swift in Sources */,
+				496AD742B31FC3DDCD1844B082C27C79 /* AUIGenericContainerTableViewCell.swift in Sources */,
+				8ECD800E27D49BD5E74C512CC49804F6 /* AUIGenericContainerTableViewHeaderFooterView.swift in Sources */,
+				39799D5B17D5C54C6B21E2065EF84CF2 /* AUIImageView.swift in Sources */,
+				239D2F51218C3EB3CF4FF87D65E3D966 /* AUIImageViewContentModeScaleAspectFit.swift in Sources */,
+				7A8F6B8D59860449939AB4403E4D2B8A /* AUIImageViewController.swift in Sources */,
+				04668AF2E370BE64459E4C86C30E42A1 /* AUIInputTextFilterTextFieldController.swift in Sources */,
+				4E2CDE29FB37FA2E2ED4A39A57CB3C7F /* AUIInputTextFilterTextViewController.swift in Sources */,
+				A9E57EA95707670427FBCD8E7FC0DDB0 /* AUIInputTextFormatterTextFieldController.swift in Sources */,
+				00C9A8BCF4DE5E2337A9634EF4216E01 /* AUIInputTextFormatterTextViewController.swift in Sources */,
+				83F2310155BD3A9AB3890F2F263EAEB8 /* AUIInputTextValidatorTextFieldController.swift in Sources */,
+				D5270CC778D246A2883DDE2CA32DDC15 /* AUIInputTextValidatorTextViewController.swift in Sources */,
+				6C5DCC8FF7CC0E16DF7F84FD648A7D67 /* AUIInsertingCellControllers.swift in Sources */,
+				9F117E7BC9BB5D26BDA78A8800A25554 /* AUIKit-dummy.m in Sources */,
+				28DEB4CE90B2527E98EF5A0AE914E416 /* AUILabel.swift in Sources */,
+				2D9F68E976211659F8560E20C368E76E /* AUILabelController.swift in Sources */,
+				134316AB3853ECF89ED407E9C4A426BC /* AUINavigationController.swift in Sources */,
+				57121B1684D84893FA606901F15A2788 /* AUINavigationControllerWithoutBar.swift in Sources */,
+				A4C407C78D4AEC1E2C577A345D238D3C /* AUIPagesController.swift in Sources */,
+				7F0EBDE0B4B1F0F74F8A8C46314D63DC /* AUIPageViewController.swift in Sources */,
+				825698FF28BAA122A92C63C43FB9FBDC /* AUIPickerComponentController.swift in Sources */,
+				83DAF2ECB46A8BBB2C26F5FF0432DBBA /* AUIPickerController.swift in Sources */,
+				372B834746C21E7623E3B2BEB10AFB87 /* AUIPickerItemController.swift in Sources */,
+				D5143E43CA0FB15470B87BD51C29C4E3 /* AUIPresentation.swift in Sources */,
+				F6A8DF0C7BF00B02B11E8314C0663005 /* AUIRefreshControlController.swift in Sources */,
+				F4C63DEA14B103BF8C460F6D77B22F9D /* AUIResponsiveSubtextFieldView.swift in Sources */,
+				4FCDA956F82A0DD28F243F2F91DFC225 /* AUIResponsiveSubtextFieldViewController.swift in Sources */,
+				CC5EADB155F3E2F516035D94A2C0A8AC /* AUIReusableCollectionCell.swift in Sources */,
+				6CB8A881E538F8C3959BC4EC1403D2D9 /* AUIReusableTableViewCell.swift in Sources */,
+				90CEC1294E83113A337D48BFFB1A2DA5 /* AUIScreenController.swift in Sources */,
+				AEF476B5FF3241807705B147868CBCF4 /* AUIScrollView.swift in Sources */,
+				D56475AE85911FCB156B2054D19C7F4F /* AUIScrollViewController.swift in Sources */,
+				8B881293D3F64362A3DB646814F7D8A1 /* AUISegmentedControlController.swift in Sources */,
+				EC63FDAF8C868CF5A7B8B8A306CBB844 /* AUISegmentedControlItemController.swift in Sources */,
+				1F82FFC1019669CE8B7F797E642FB255 /* AUIStatusBarScreenView.swift in Sources */,
+				59A92E4723CE01C1620AAABC012565FE /* AUISubbuttonViewController.swift in Sources */,
+				A68549F027148545C57E7B6C628EA79E /* AUISubcontrolViewController.swift in Sources */,
+				678BBE9D939FFEF15356182F982E6A2B /* AUISubtextFieldViewController.swift in Sources */,
+				E8DCBD66F016EB15C35C8F945E2B68C1 /* AUISubtextViewViewController.swift in Sources */,
+				5069CA145345B10D25102EC699D1E6E8 /* AUISubviewView.swift in Sources */,
+				C8A915647117CF314DC133FEFD0E9461 /* AUISubviewViewController.swift in Sources */,
+				EC894CA580CA7A0A72472282B08BB005 /* AUISwitchController.swift in Sources */,
+				2FFEB032CF432DF518DF01080C36CBCE /* AUITabBarController.swift in Sources */,
+				96AC16E92A315022E1A36668D0F234BC /* AUITableView.swift in Sources */,
+				B26B98E5F24B7DF14740CC909653B85D /* AUITableViewCellController.swift in Sources */,
+				E0574A9AA5D6B640F43B2A15331EC394 /* AUITableViewCellView.swift in Sources */,
+				0054C0370FED8555F28A5D0794BB8EAB /* AUITableViewController.swift in Sources */,
+				119AF39C15263F81FF95AA142F22147E /* AUITableViewHeaderFooterController.swift in Sources */,
+				92472CAA0A8AFA639A33F24405BB88FC /* AUITableViewHeaderFooterView.swift in Sources */,
+				D5B5B12734E8A31BB4DF4DD14C7B1695 /* AUITableViewSectionController.swift in Sources */,
+				07648561C3A895B212A6FBABDE0CF2F6 /* AUITextField.swift in Sources */,
+				6F94FD6B999C05B12BF22666F2D66ABA /* AUITextFieldController.swift in Sources */,
+				EFA5236992B4C5B6D658B533BBB10EC6 /* AUITextInputControl.swift in Sources */,
+				D3A1A7581617F5ED3BA10610F5B985EB /* AUITextInputControlTextFieldController.swift in Sources */,
+				6113B0A218F5D7B68B60849732993946 /* AUITextInputFilter.swift in Sources */,
+				7742D9D75F0645B31CF1E7B4B13D68C5 /* AUITextInputFormatter.swift in Sources */,
+				85D060872B3D6A0932DFCB43E4B88CDE /* AUITextInputValidator.swift in Sources */,
+				28019F8BF9C279260189D44B3A77882C /* AUITextView.swift in Sources */,
+				2CB7BF2DA480F7B981A4A8D7B1EBC709 /* AUITextViewController.swift in Sources */,
+				53AB7622FC2266A9A6860BB8D2B350C0 /* AUITitlePickerComponentController.swift in Sources */,
+				65B2D179E8EDDE5AFFEEC51ACD787032 /* AUITitlePickerController.swift in Sources */,
+				87E110A23FA112B1C13D8A6D2BCB1C83 /* AUITitlePickerItemController.swift in Sources */,
+				B841E7C4408564B06461DC892C9A9168 /* AUIToolbar.swift in Sources */,
+				A05AA7DF3479BC4C01CEA1868081DE12 /* AUIToolbarController.swift in Sources */,
+				EE1138C53EB74FA34DE5C38D11165A0B /* AUIUpdatableCollectionViewController.swift in Sources */,
+				7D8AA3583AF9CEBB981B29EB6407C492 /* AUIUpdatableWideCollectionViewLayout.swift in Sources */,
+				00089D6BB51A8335C9E049D092C55D43 /* AUIUpdatingCellControllers.swift in Sources */,
+				9B64492E2AAB8CB4A42929C022B33D59 /* AUIView.swift in Sources */,
+				79F308CF7129B96C77087480AE203E7D /* AUIViewContainer.swift in Sources */,
+				0BA3561ADDC7DAB595A49F30A6DA7489 /* AUIViewContainerable.swift in Sources */,
+				65793E99A5ECD3EA0552849C800998DB /* AUIViewController.swift in Sources */,
+				DB626A6C8988286CD15A426F6555784E /* AUIViewPickerComponentController.swift in Sources */,
+				E631AC399137B0CF3844D499ECC5166D /* AUIViewPickerController.swift in Sources */,
+				78EA97C654E6C35724AEB673845C4DCC /* AUIViewPickerItemController.swift in Sources */,
+				2520AECA86ACC097C2932792F5274818 /* UIColor+Extension.swift in Sources */,
+				96D0A7332433535603E1B110B1DDD618 /* UIPageControl+PreferredSize.swift in Sources */,
+				0C58F66CF259E91EF173B459A4ECE2AF /* UIStackView+ArrangedSubviews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D987255EA1197CBA89A195EA0FD7CD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837CA254F7B32220FD648D0123F228FA /* BTextInputFilter-dummy.m in Sources */,
+				4BFB5713952A1C17ECA53ED189A011FC /* CharacterSetTextInputFilter.swift in Sources */,
+				874887CC5AF7A21F7CCAC8B46B5CD63A /* RegexTextInputFilter.swift in Sources */,
+				4165E1780D4ED97F5C25669765C83706 /* TextInputFilter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DA01ED8A6A0290A922B6CC68F5C870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnyFormatKit;
+			target = 8C07AD7DF8B0F18B7DB12F0D2C1F899D /* AnyFormatKit */;
+			targetProxy = B3EB14E72E217DA07EEBF8AF54844A28 /* PBXContainerItemProxy */;
+		};
+		0F68D55119F8F7B5EA180BF05BFE6A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 50587B0CBA9171CEBB97DFF3A2AA919A /* PBXContainerItemProxy */;
+		};
+		525ACC9F367153889AA53B8D3E69F582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTextInputFilter;
+			target = 970103E1A8BBFC9ED2CFE0CFCE637057 /* BTextInputFilter */;
+			targetProxy = FCDAFF24926B23EDE530FE8D73E2ED36 /* PBXContainerItemProxy */;
+		};
+		C14E884F1AD425776BA52EA8D6F69092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BlueKit";
+			target = B44732F3ABF09F73F7D054D77D5E2934 /* Pods-BlueKit */;
+			targetProxy = 0613D5D12BBB26B54EAA16F9B29D061C /* PBXContainerItemProxy */;
+		};
+		C8A6EA9927FA9C61E17179888936542D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTextInputValidator;
+			target = 77054F18872A72934F33EE2F6D238451 /* BTextInputValidator */;
+			targetProxy = E194076D6874AB26E40F0965B1C2609B /* PBXContainerItemProxy */;
+		};
+		D414943369565BD01A92F8D6E03F4713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AUIKit;
+			target = 485B2710710275A609113C16D2265279 /* AUIKit */;
+			targetProxy = 8F1EDB0A4DF109BD5103FE8ACA735AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1428DF34A83AB9C06899F5FBA678C5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FBB1DDA712B9C2B3A67477BBB2CB36 /* AnyFormatKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnyFormatKit/AnyFormatKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnyFormatKit/AnyFormatKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AnyFormatKit/AnyFormatKit.modulemap";
+				PRODUCT_MODULE_NAME = AnyFormatKit;
+				PRODUCT_NAME = AnyFormatKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		162C9D95BE60DFE5046151D5B9A3F433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82EA79B85FD01DBD0559FD7C94F2165 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FE4B4497631256E431C9779F2265312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FBB1DDA712B9C2B3A67477BBB2CB36 /* AnyFormatKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnyFormatKit/AnyFormatKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnyFormatKit/AnyFormatKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AnyFormatKit/AnyFormatKit.modulemap";
+				PRODUCT_MODULE_NAME = AnyFormatKit;
+				PRODUCT_NAME = AnyFormatKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4347B62B850367357781887237E794E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82EA79B85FD01DBD0559FD7C94F2165 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46D445F1A04B48EDBA48201AB4299792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DBBBAE5E6390F8BE9407C7492FF883 /* Pods-BlueKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlueKit/Pods-BlueKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlueKit/Pods-BlueKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D5ABC6C5F2D7F1393CFA36830EE3C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FCB59B2BFEE137F293CCBC0B34258B /* AUIKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AUIKit/AUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AUIKit/AUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AUIKit/AUIKit.modulemap";
+				PRODUCT_MODULE_NAME = AUIKit;
+				PRODUCT_NAME = AUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ECF84200A71C288672BEF44189846D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AEEE6FA33F39F280063E7B1BB6F975 /* BTextInputValidator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTextInputValidator/BTextInputValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTextInputValidator/BTextInputValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BTextInputValidator/BTextInputValidator.modulemap";
+				PRODUCT_MODULE_NAME = BTextInputValidator;
+				PRODUCT_NAME = BTextInputValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97A7F2470C26641C22858E11D291E06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB99389F8FF2D48B3EA975338A0638C2 /* Pods-BlueKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlueKitTests/Pods-BlueKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlueKitTests/Pods-BlueKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A65C0D94D11F78275B94C68FA4E4EA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819BFFEB05749030C2051685CF197DCC /* BTextInputFilter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTextInputFilter/BTextInputFilter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTextInputFilter/BTextInputFilter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BTextInputFilter/BTextInputFilter.modulemap";
+				PRODUCT_MODULE_NAME = BTextInputFilter;
+				PRODUCT_NAME = BTextInputFilter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C14D987F03E4B09A49D03A65BA96BA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34D3FAA091237B07A8601D35BEB8465 /* Pods-BlueKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlueKit/Pods-BlueKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlueKit/Pods-BlueKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6D8F17330B0B581E1A9D0C8C067212C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FCB59B2BFEE137F293CCBC0B34258B /* AUIKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AUIKit/AUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AUIKit/AUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AUIKit/AUIKit.modulemap";
+				PRODUCT_MODULE_NAME = AUIKit;
+				PRODUCT_NAME = AUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ECB08E926E446CDCE049ABBBA163DEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDD5E85778F4F8035E1A240281676EC /* Pods-BlueKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlueKitTests/Pods-BlueKitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlueKitTests/Pods-BlueKitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F77274DEC3A4CFAF1F58131822BB8479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AEEE6FA33F39F280063E7B1BB6F975 /* BTextInputValidator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTextInputValidator/BTextInputValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTextInputValidator/BTextInputValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BTextInputValidator/BTextInputValidator.modulemap";
+				PRODUCT_MODULE_NAME = BTextInputValidator;
+				PRODUCT_NAME = BTextInputValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE8D6B61C7802F71467E34969ED37EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819BFFEB05749030C2051685CF197DCC /* BTextInputFilter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTextInputFilter/BTextInputFilter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTextInputFilter/BTextInputFilter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BTextInputFilter/BTextInputFilter.modulemap";
+				PRODUCT_MODULE_NAME = BTextInputFilter;
+				PRODUCT_NAME = BTextInputFilter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C2F67A24EFF2D5F6410E6A9D00BB2A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162C9D95BE60DFE5046151D5B9A3F433 /* Debug */,
+				4347B62B850367357781887237E794E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B4735A378C2DEB182896EE3E932381 /* Build configuration list for PBXNativeTarget "AnyFormatKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE4B4497631256E431C9779F2265312 /* Debug */,
+				1428DF34A83AB9C06899F5FBA678C5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65BD84335D7E3C839EFD56CAC3EEC1B5 /* Build configuration list for PBXNativeTarget "AUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D8F17330B0B581E1A9D0C8C067212C /* Debug */,
+				5D5ABC6C5F2D7F1393CFA36830EE3C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79375D89F6C92E03D62CE3EB022A9DC3 /* Build configuration list for PBXNativeTarget "Pods-BlueKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D445F1A04B48EDBA48201AB4299792 /* Debug */,
+				C14D987F03E4B09A49D03A65BA96BA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959F20532C700BF5EB5C256E44398C30 /* Build configuration list for PBXNativeTarget "Pods-BlueKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB08E926E446CDCE049ABBBA163DEF4 /* Debug */,
+				97A7F2470C26641C22858E11D291E06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA00749EB8F7007283B65870F009109 /* Build configuration list for PBXNativeTarget "BTextInputFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8D6B61C7802F71467E34969ED37EA3 /* Debug */,
+				A65C0D94D11F78275B94C68FA4E4EA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82A6725369322EBCC96F10937CC343A /* Build configuration list for PBXNativeTarget "BTextInputValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77274DEC3A4CFAF1F58131822BB8479 /* Debug */,
+				6ECF84200A71C288672BEF44189846D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

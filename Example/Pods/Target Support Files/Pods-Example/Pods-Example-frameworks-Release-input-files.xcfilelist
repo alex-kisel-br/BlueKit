@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AUIKit/AUIKit.framework
+${BUILT_PRODUCTS_DIR}/AnyFormatKit/AnyFormatKit.framework
+${BUILT_PRODUCTS_DIR}/BTextInputFilter/BTextInputFilter.framework
+${BUILT_PRODUCTS_DIR}/BTextInputValidator/BTextInputValidator.framework
+${BUILT_PRODUCTS_DIR}/BlueKit/BlueKit.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

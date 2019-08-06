@@ -1,0 +1,6 @@
+framework module BTextInputFilter {
+  umbrella header "BTextInputFilter-umbrella.h"
+
+  export *
+  module * { export * }
+}
