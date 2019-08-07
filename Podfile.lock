@@ -1,14 +1,14 @@
 PODS:
   - AnyFormatKit (1.0.1)
   - AUIKit (0.1.2)
-  - BTextInputFilter (0.1.4)
+  - BTextInputFilter (0.1.5)
   - BTextInputValidator (0.1.1)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - AnyFormatKit (= 1.0.1)
   - AUIKit (= 0.1.2)
-  - BTextInputFilter (= 0.1.4)
+  - BTextInputFilter (= 0.1.5)
   - BTextInputValidator (= 0.1.1)
   - SnapKit (= 4.2.0)
 
@@ -23,10 +23,10 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AnyFormatKit: 7e9955c7e3909b0405ddafe150d2eb4c543a4819
   AUIKit: 95387a41eaa45222a60bfd9fe2d67d00aa54a29b
-  BTextInputFilter: 6de935490bab6e9b1748324a80d63c05c604f578
+  BTextInputFilter: 4a7bc909a5a4c5326647c3da99a9d6ba4a61837e
   BTextInputValidator: 583c48563fe36009af80585b6e99616f18693091
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 3837888549f24e18d8d88cc253c784f0159f7c7d
+PODFILE CHECKSUM: f86e5759d654e5ba46d64372c84e950be6fbcf5c
 
 COCOAPODS: 1.7.2
