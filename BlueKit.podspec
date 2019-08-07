@@ -13,7 +13,7 @@ s.source_files = 'BlueKit/Source/**/*'
 
 s.dependency 'AnyFormatKit', '1.0.1'
 s.dependency 'AUIKit', '0.1.2'
-s.dependency 'BTextInputFilter', '0.1.2'
+s.dependency 'BTextInputFilter', '0.1.3'
 s.dependency 'BTextInputValidator', '0.1.1'
 s.dependency 'SnapKit', '4.2.0'
 

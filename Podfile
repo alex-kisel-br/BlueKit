@@ -8,7 +8,7 @@ target 'BlueKit' do
   # Pods for BlueKit
   pod 'AnyFormatKit', '1.0.1'
   pod 'AUIKit', '0.1.2'
-  pod 'BTextInputFilter', '0.1.2'
+  pod 'BTextInputFilter', '0.1.3'
   pod 'BTextInputValidator', '0.1.1'
   pod 'SnapKit', '4.2.0'
 
