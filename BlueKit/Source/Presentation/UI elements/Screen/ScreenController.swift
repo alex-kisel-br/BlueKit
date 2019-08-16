@@ -26,11 +26,12 @@ open class ScreenController: UIViewController {
     open override func viewDidLoad() {
         super.viewDidLoad()
         initConfigure()
+        hideNavigationBarIfNeeded()
     }
     
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        hideNavigationBarIfNeeded(animated: animated)
+//        hideNavigationBarIfNeeded()
         colorizeNavigationBarIfNeededAnimated()
     }
     
@@ -42,7 +43,7 @@ open class ScreenController: UIViewController {
     
     open override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        showNavigationBarIfNeeded(animated: animated)
+//        showNavigationBarIfNeeded()
         enableSwipeToBackIfNeeded()
     }
     
@@ -84,13 +85,13 @@ open class ScreenController: UIViewController {
         return false
     }
   
-    private func showNavigationBarIfNeeded(animated: Bool) {
-        if navigationBarHidden {
-            showNavigationBar()
-        }
-    }
-    
-    private func hideNavigationBarIfNeeded(animated: Bool) {
+//    private func showNavigationBarIfNeeded() {
+//        if navigationBarHidden {
+//            showNavigationBar()
+//        }
+//    }
+  
+    private func hideNavigationBarIfNeeded() {
         if navigationBarHidden {
             hideNavigationBar()
         }
