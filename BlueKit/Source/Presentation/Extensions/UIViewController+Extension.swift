@@ -16,12 +16,12 @@ public extension UIViewController {
     }
   }
   
-  func hideNavigationBar() {
-    navigationController?.setNavigationBarHidden(true, animated: false)
+  func hideNavigationBar(animated: Bool) {
+    navigationController?.setNavigationBarHidden(true, animated: animated)
   }
   
-  func showNavigationBar() {
-    navigationController?.setNavigationBarHidden(false, animated: false)
+  func showNavigationBar(animated: Bool) {
+    navigationController?.setNavigationBarHidden(false, animated: animated)
   }
   
 }
