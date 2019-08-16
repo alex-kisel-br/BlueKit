@@ -32,6 +32,11 @@ open class ScreenController: UIViewController {
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 //        hideNavigationBarIfNeeded()
+      if navigationBarHidden {
+        hideNavigationBar()
+      } else {
+        showNavigationBar()
+      }
         colorizeNavigationBarIfNeededAnimated()
     }
     
