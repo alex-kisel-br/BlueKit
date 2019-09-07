@@ -40,16 +40,19 @@ open class FilterValidatorFormatterTextInputControl: AUITextInputControl {
         
         let formattingResult = inputTextFormatter.formatInput(currentText: currentDisplayedText ?? "", range: range, replacementString: filteredString)
         let newUnformattedText = inputTextFormatter.unformat(formattingResult.formattedText)
-        if let inputTextValidator = inputTextValidator,
-           inputTextValidator.validateInputText(newUnformattedText) == true {
-            var currentCaretPosition = 0
-            if text.isNilOrEmpty {
-                currentCaretPosition = range.location + range.length
-            } else {
-                currentCaretPosition = range.location + (filteredString).count
+        if let inputTextValidator = inputTextValidator {
+            guard inputTextValidator.validateInputText(newUnformattedText) == true else {
+                var currentCaretPosition = 0
+                if text.isNilOrEmpty {
+                    currentCaretPosition = range.location + range.length
+                } else {
+                    currentCaretPosition = range.location + (filteredString).count
+                }
+                return (displayedText: currentDisplayedText, caretPosition: currentCaretPosition)
             }
-            return (displayedText: currentDisplayedText, caretPosition: currentCaretPosition)
+            return (displayedText: formattingResult.formattedText, caretPosition: formattingResult.caretBeginOffset)
+        } else {
+            return (displayedText: formattingResult.formattedText, caretPosition: formattingResult.caretBeginOffset)
         }
-        return (displayedText: formattingResult.formattedText, caretPosition: formattingResult.caretBeginOffset)
     }
 }

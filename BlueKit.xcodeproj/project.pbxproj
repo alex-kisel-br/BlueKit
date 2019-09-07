@@ -110,7 +110,7 @@
 		30A9552122CB6C2500E78892 /* BlueKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueKitTests.swift; sourceTree = "<group>"; };
 		30A9552322CB6C2500E78892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A9553322CB6D6300E78892 /* BlueKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlueKit.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		30A9554222CB7CB900E78892 /* FilterValidatorFormatterTextInputControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterValidatorFormatterTextInputControl.swift; sourceTree = "<group>"; };
+		30A9554222CB7CB900E78892 /* FilterValidatorFormatterTextInputControl.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FilterValidatorFormatterTextInputControl.swift; sourceTree = "<group>"; tabWidth = 4; };
 		30A9558F22CB9CC000E78892 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		30A9559322CB9CE800E78892 /* ScreenController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ScreenController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		30A9559522CB9D0000E78892 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
