@@ -41,7 +41,7 @@ open class FilterValidatorFormatterTextInputControl: AUITextInputControl {
         let formattingResult = inputTextFormatter.formatInput(currentText: currentDisplayedText ?? "", range: range, replacementString: filteredString)
         let newUnformattedText = inputTextFormatter.unformat(formattingResult.formattedText)
         if let inputTextValidator = inputTextValidator,
-           inputTextValidator.validateInputText(newUnformattedText) == true else {
+           inputTextValidator.validateInputText(newUnformattedText) == true {
             var currentCaretPosition = 0
             if text.isNilOrEmpty {
                 currentCaretPosition = range.location + range.length
