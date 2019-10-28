@@ -8,7 +8,7 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Aleksandr Orlov' => 'alexandr.orlov@brander.ua' }
 s.source           = { :git => 'https://code.branderstudio.com/mobile/bluekit', :tag => s.version.to_s }
 
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '10.0'
 s.source_files = 'BlueKit/Source/**/*'
 
 s.dependency 'AnyFormatKit', '1.0.1'
